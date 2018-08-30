@@ -1,0 +1,1747 @@
+tlb *
+73, *
+x=366
+91, *
+* * *
+72, *
+ax=366
+max=366
+* * * *
+program
+start *
+data * *
+* state *
+* max=366
+capture *
+iar * * *
+, max=366
+3, max=366
+* * dear *
+1, max=366
+27, max=366
+47, max=366
+45, max=366
+98, max=366
+i-cache * *
+* Assertion
+79, max=366
+disable * *
+34, max=366
+94, max=366
+04, max=366
+* error...0
+* state * *
+kernel panic
+iar * dear *
+generating *
+DCR 0x2E2 * *
+DCR 0x2E4 * *
+DCR 0x2DE * *
+DCR 0x2E7 * *
+DCR 0x2E0 * *
+DCR 0x2E3 * *
+DCR 0x2E6 * *
+DCR 0x2DC * *
+DCR 0x2E1 * *
+DCR 0x2E5 * *
+DCR 0x2DD * *
+DCR 0x2E8 * *
+* * Status(A)
+DCR 0x2DF * *
+rts internal *
+* * registers:
+* 003a926c * *
+CE * 9, * * * *
+byte ordering *
+* sym * * * * *
+machine check *
+instruction * *
+CE * * at * * *
+no ethernet link
+CE * 28, * * * *
+CE * 15, * * * *
+iar 003a9258 * *
+data TLB error *
+turn on hidden *
+CE * 25, * * * *
+CE * 27, * * * *
+* VPD is corrupt
+CE * 35, * * * *
+CE * 23, * * * *
+CE * 12, * * * *
+* * * * * mask *
+CE * 17, * * * *
+iar 003a9288 * *
+* check interrupt
+* 13:1eeeeeee * *
+CE * * * * mask *
+program interrupt
+* 003a929c dear *
+* * * at * mask *
+instruction plb *
+shutdown complete
+CE sym * at * * *
+Ido packet timeout
+CE * 6, * * mask *
+* sym 25, at * * *
+critical input * *
+CE * * at * mask *
+external input * *
+CE sym 6, at * * *
+* 427 * * R65 by *
+address * error..0
+CE * 0, * * mask *
+* sym 23, at * * *
+* sym 9, * * * 0x20
+iar 00149ee0 dear *
+* sym 3, * * * 0x40
+iar 003a9274 dear *
+CE sym 26, at * * *
+* sym 7, * * * 0x80
+iar 003a9294 dear *
+CE * 26, * * mask *
+CE sym 35, at * * *
+imprecise machine *
+* sym * at * mask *
+iar 003a9254 dear *
+CE * 10, * * mask *
+iar 00149f88 dear *
+* sym 9, * * * 0x01
+iar 00149fc0 dear *
+iar 0014a1e4 dear *
+machine * register:
+CE sym * * * mask *
+iar 003a92a0 dear *
+iar 003a9260 dear *
+CE * 35, * * mask *
+* sym 1, * * * 0x80
+* sym 31, * * * 0x80
+* sym 29, * * * 0x80
+* sym 6, at * * 0xc0
+* sym 34, * * * 0x80
+* select...........0
+* sym 30, * * * 0x80
+parity error.......0
+* sym 14, * * * 0x80
+* sym 28, * * * 0x40
+* sym 27, * * * 0x80
+* sym 6, at * * 0x44
+* sym 20, * * * 0x40
+* sym 2, at * mask *
+CE sym * at * mask *
+* sym 9, at * * 0x11
+* sym 11, * * * 0x80
+* 346 * * R31-M0 by *
+* 338 * * R23-M0 by *
+* * 5, at * mask 0x20
+* 414 * * R63-M0 by *
+* sym 12, at * * 0x44
+* * JtagId = ffffffff
+0x00000000 0x0000b64f
+0x00000000 0x00000004
+* 347 * * R55-M1 by *
+0x3f7af6a9 0xb9d48c16
+* sym 12, at * * 0x50
+* 413 * * R63-M0 by *
+* * 5, at * mask 0x10
+* 348 * * R45-M0 by *
+* * 5, at * mask 0x01
+0x3f7afa52 0x07a0dee5
+* sym 12, at * * 0x60
+parity error * bank *
+0x0000040c 0x00000000
+0x3f7af84f 0x70bc91d9
+CE sym 6, at * mask *
+* sym 12, at * * 0x22
+* * 5, at * mask 0x02
+0x00000000 0x00000000
+ciodb has * restarted.
+* * 10, at * mask 0x10
+* syndrome register: *
+* * 10, at * mask 0x02
+prefetch depth for * *
+* * 10, at * mask 0x01
+* * 10, at * mask 0x20
+parity error * write *
+symbol................0
+miscompare............0
+memory manager strobe *
+LinkCard is not fully *
+floating point instr. *
+capture valid.........1
+d-cache search parity *
+qw trapped............0
+correctable error.....0
+correctable error.....1
+uncorrectable error...1
+symbol................7
+interrupt threshold...0
+* 354 * * R45-M0-N6 by *
+* 352 * * R41-M1-N0 by *
+* ecc status register: *
+* 341 * * R45-M1-N2 by *
+* 358 * * R45-M0-N6 by *
+* 355 * * R45-M0-N6 by *
+* 350 * * R71-M0-N4 by *
+* 345 * * R41-M1-N8 by *
+Error: unable to mount *
+* 351 * * R23-M1-N8 by *
+* 339 * * R72-M1-NC by *
+* * performed upon * * *
+* 364 * * R06-M1-NF by *
+* 420 * * R63-M0-N9 by *
+* 430 * * R67-M1-N7 by *
+* 344 * * R06-M1-NF by *
+* 343 * * R23-M0-N7 by *
+* 361 * * R72-M1-NC by *
+* 382 * * R77-M1-N7 by *
+* 384 * * R71-M0-N4 by *
+* 464 * * R45-M0-N8 by *
+* 366 * * R10-M0-NC by *
+* 362 * * R31-M0-N3 by *
+* 337 * * R16-M0-NF by *
+prefetch depth for PLB *
+* 349 * * R31-M1-N6 by *
+symbol................15
+* 402 * * R66-M0-NC by *
+* 363 * * R23-M0-N7 by *
+* 357 * * R54-M0-ND by *
+* 342 * * R43-M0-NB by *
+* 401 * * R53-M1-N8 by *
+* 356 * * R03-M0-NC by *
+* 359 * * R45-M0-N6 by *
+* 432 * * R73-M0-ND by *
+* 360 * * R60-M1-N2 by *
+* 353 * * R30-M0-N8 by *
+Starting SystemController
+* 1:1feaa300 * 3:01137307
+* * * in directory 0....0
+* * * in directory 1....0
+* * * in external DDR...1
+* 5:000865b0 * 7:00089478
+this link * is not fully *
+mask..................0x10
+8:00000014 * * 11:00102d20
+* * access...............0
+mask..................0x00
+8:1d5528ae * * 11:00090000
+mask..................0x40
+rts * - stopping execution
+* * * alignment exceptions
+* check status * 0xe0800000
+* check status * 0x81000000
+* 21:002365d0 * 23:00000008
+* * * in directory 0......0
+* * * in directory 1......0
+20:ffffffff * * 23:0feea440
+* check status * 0xa0800000
+* * * on * * * * retrying *
+* check status * 0x91800000
+* check status * 0x82000000
+* * 30:00000008 31:00378d10
+Kill * * timed out. Block *
+* check status * 0xa0000000
+* check status * 0x88000000
+NodeCard is not * functional
+* cr:88002824 * ctr:00000000
+DDR failing info * 0x00000000
+DDR failing info * 0x80004000
+ciod: * * * files * program *
+* generated 2 * files for * *
+DDR failing info * 0x8f401000
+Node card is not * functional
+5 floating point * exceptions
+7 floating point * exceptions
+Running as background command
+DDR failing info * 0x87101000
+6 floating point * exceptions
+* generated 3 * files for * *
+ciodb * normally with * code *
+* cache parity error corrected
+* * depth....................0
+* * threshold................0
+NodeCard VPD * is * accessible
+* * point alignment exceptions
+capture first * * * address..0
+rts: * terminated for reason *
+VALIDATE_LOAD_IMAGE_CRC_IN_DRAM
+* wait enable.................0
+data * plb error..............1
+L3 * control register: 00000000
+max number * * prefetches.....7
+* ddr * * and * on * 0, * * * *
+* lib_ido_error: * socket closed
+* of * * error(s) detected and *
+* read plb error...............0
+* read plb error...............1
+* * broadcast..................0
+guaranteed * cache block touch.0
+ciod: * * failed: No * file or *
+Lustre mount FAILED : * : point *
+program interrupt: * operation..0
+1 floating * alignment exceptions
+Controlling BG/L rows [ 0 * 2 3 *
+ciodb * normally with exit code *
+DDR * check register: * 0x00010000
+* 5:000b2f50 6:0000911c 7:000b2f30
+* 5:0000c000 6:00000600 7:1fea9f64
+* 5:0134d300 6:09066b90 7:00000018
+4:00000000 5:00000000 * 7:0892bd30
+* 5:000865b0 6:1feaa238 7:00089478
+4:00001a90 5:0002e670 6:0000020c *
+* 5:000000af 6:0fee93b0 7:01a86cdc
+4:ffff45dc 5:33303300 6:0002a828 *
+4:00000000 5:00b5d6c0 6:00000010 *
+0:00010800 1:1fea9d90 2:1eeeeeee *
+ciod: generated 8 core files * * *
+0:00001580 1:1feaa6e0 2:1eeeeeee *
+4:00088750 5:00088740 * 7:00000001
+4:18429ff0 5:0c287f40 6:1a3a4000 *
+4:0000000e 5:000865b0 * 7:0008943c
+4:00000f0d 5:02e05990 6:00003c34 *
+0:00003000 * 2:1eeeeeee 3:0000e090
+4:00000000 5:00000000 6:00008e3c *
+4:18707ff0 * 6:1b3ac800 7:00002100
+4:045364c0 5:045dbc80 6:04661100 *
+4:00055920 * 6:00009338 7:00000000
+4:00088750 * 6:00088730 7:00088690
+4:00021328 5:00021494 * 7:00040000
+4:01cdb4e0 5:01cdadc0 6:0a013960 *
+0:0000c000 1:1fea9d90 2:1eeeeeee *
+* 5:ffff96e0 6:fffbccf0 7:0f554c48
+* 5:00460000 6:00000000 7:00000000
+* 5:000865b0 6:1fea7b68 7:00089400
+4:00007ef4 * 6:0ae73210 7:0947d370
+* 5:000865b0 6:fefefeff 7:0008943c
+4:01360ef0 5:01360ef0 * 7:00323648
+* 5:000865b0 6:1fea7b68 7:00089428
+* 1:1feaa300 2:1eeeeeee 3:01506307
+4:ffff45d8 * 6:0002a838 7:00030000
+* 5:000865b0 6:1fea7b68 7:00089414
+* 5:000865b0 6:1fea7b68 7:00089464
+* 5:000865b0 6:1feaa238 7:00089428
+4:00085fd8 5:000865b0 6:00000000 *
+* 5:00000000 6:43380000 7:00000000
+4:0000000e 5:000865b0 6:0000007f *
+0:00003000 * 2:1eeeeeee 3:0000e0c0
+4:1feaa3b0 5:00000800 6:00000000 *
+4:ffff4588 * 6:0002a888 7:00030000
+4:0023b550 5:00000120 * 7:00000000
+4:14048d78 * 6:140d9a08 7:14048ec8
+0:0000001c 1:0feea220 * 3:00000060
+4:1feaa3a8 5:00000010 * 7:00000010
+* 5:00021264 6:000000b8 7:000c8550
+* 5:000865b0 6:1feaa238 7:00089400
+* 1:1feaa300 2:1eeeeeee 3:01863307
+4:5d93e823 5:001f0000 6:5d93e823 *
+4:1fea96f0 5:00000004 * 7:0098a3b0
+* 5:000865b0 6:1feaa238 7:00089414
+4:0000012c 5:0831a460 6:0831a460 *
+4:ffff4548 * 6:0002aae8 7:00030000
+4:ffff45dc * 6:0002a828 7:00030000
+4:0043e7e4 5:00530000 * 7:00000010
+* 5:010afb00 6:09091d50 7:00000018
+4:000210f8 5:00021264 6:000000b9 *
+4:00378d18 * 6:09048d10 7:00000005
+* 5:000865b0 6:1fea7b68 7:0008943c
+* 5:011e9428 6:09094510 7:00000003
+4:0bde3578 5:0001b588 6:00003540 *
+4:00000040 5:001d0000 * 7:0111eef0
+4:00088590 * 6:0000911c 7:00088560
+4:000007a8 5:0903ce20 6:000084ae *
+4:000008ce 5:ffffffff * 7:00086590
+* 5:0feea498 6:00400000 7:09a0ef90
+0:00003000 * 2:1eeeeeee 3:0000e2b0
+4:00000008 5:0f812740 * 7:0f812b40
+* 5:0007d000 6:fffa8840 7:0006d600
+* 5:00000000 6:00000010 7:0feea2a0
+* 5:00000078 6:00000004 7:00000080
+* 5:000865b0 6:fefefeff 7:00089478
+* 5:000865b0 6:fefefeff 7:00089428
+4:00088770 * 6:00088750 7:000886b0
+4:00000000 5:001aa4cc 6:000003be *
+ciod: generated 24 core files * * *
+d-cache search parity error.......0
+ciod: generated 21 core files * * *
+floating pt ex mode 0 enable......1
+ciod: generated 27 core files * * *
+8:027b031b 9:00000000 10:00000000 *
+8:00000000 9:00000001 10:00550000 *
+ciod: generated 29 core files * * *
+8:08f31a30 9:ffffffff 10:00000000 *
+8:00105f62 9:00000001 * 11:00090000
+8:00100662 9:00000001 * 11:00090000
+floating pt ex mode 0 enable......0
+8:00000000 9:0a5b2910 * 11:0000000c
+ciod: generated 17 core files * * *
+8:1416a3f8 9:140457a8 10:141f7968 *
+ciod: generated 11 core files * * *
+8:00088740 9:00088730 * 11:00088710
+ciod: generated 23 core files * * *
+ciod: generated 19 core files * * *
+8:011e9688 9:011e95c0 * 11:00148f9c
+floating pt ex mode 1 enable......0
+8:001019c2 9:00000002 10:0fe00000 *
+8:17c63c00 9:00009c00 10:13ecf780 *
+8:00107e62 9:00000001 * 11:00090000
+8:00000004 9:4e800020 10:3ed4bd98 *
+8:00104822 9:00000001 * 11:00090000
+d-cache flush parity error........0
+ciod: generated 26 core files * * *
+8:01306d90 9:00000028 * 11:01306cc0
+8:00000000 9:000017f8 * 11:00000014
+8:1a3a4c00 9:0000cc00 10:0c294b40 *
+8:002349c0 9:00230000 * 11:00236a50
+8:001020e2 9:00000002 10:0fe00000 *
+debug interrupt enable............0
+8:010afd00 9:00000028 * 11:010afc30
+8:000c8880 9:00000400 * 11:c0010000
+ciod: generated 53 core files * * *
+ciod: generated 25 core files * * *
+8:009f7120 9:00002670 * 11:00000000
+8:00088880 9:00000400 * 11:c0018000
+floating pt ex mode 1 enable......1
+8:00106810 9:0000146b * 11:00088780
+instruction address space.........0
+ciod: generated 28 core files * * *
+d-cache flush parity error........1
+ciod: generated 30 core files * * *
+ciod: generated 16 core files * * *
+8:1fea443c 9:ba1cfa4f * 11:00000000
+8:00d74050 9:00240000 10:00240000 *
+8:0e7e7900 9:0e7e7940 10:0e7e7d00 *
+ciod: generated 22 core files * * *
+8:00015630 9:00045142 10:03389d21 *
+8:00105842 9:00000001 * 11:00090000
+8:0691eb70 9:b1140400 10:fff1f0dc *
+summary...........................1
+ciod: generated 13 core files * * *
+8:008e4f90 9:008e6c8c 10:00000001 *
+8:009ca620 9:009cca0c 10:00000001 *
+ciod: generated 14 core files * * *
+8:000c8880 * 10:c00005a0 11:c0010000
+rror threshold, * replacing the card
+8:0000e2b0 * 10:000000e0 11:0008885c
+* 9:00000002 10:0fe00000 11:00090000
+* 9:00000080 10:00000020 11:000000a0
+8:00000080 * 10:fff9cf14 11:00000060
+program interrupt: * instruction...0
+idoproxy * normally with exit code *
+ciod: * code 2 * not * or 4294967295
+ciod: generated 127 core files * * *
+8:0000e0c0 * 10:000000e0 11:0008885c
+* 9:00000400 10:c0001a00 11:c0010000
+8:0000e090 * 10:000000e0 11:0008885c
+8:00088720 * 10:00088700 11:000886f0
+* 9:00010800 10:10115a80 11:00002100
+* 9:01300fc8 10:000001ff 11:00000006
+8:00400000 * 10:004b5950 11:13140000
+8:00000000 * 10:b1140400 11:00000060
+* 9:b1150800 10:fff1f0fc 11:b1150800
+* 8 subnets * 409600 addresses to DB
+8:1feaa410 * 10:fff9d8b0 11:b1140400
+* 9:00591040 10:00591040 11:0dfc8330
+* 9:001fbd00 10:0ae73210 11:00000000
+* is being done on this * * * * by *
+size of scratchpad portion of * (0M)
+8:08836a60 * 10:fff1f0dc 11:b1151400
+* 9:00000068 10:009e8730 11:00006c00
+total of * ddr error(s) detected * *
+* 9:00000028 10:ffffffe8 11:001454dc
+mmcs_server * normally with * code *
+* 9:2325a000 10:00002130 11:00000010
+* L3 * error(s) (dcr 0x0157) * and *
+8:000003ff * 10:0000003f 11:00000000
+* double-hummer alignment exceptions
+8:05ce2cd0 * 10:0033ba1c 11:0014704c
+8:1feaa5a4 * 10:00000000 11:000008d8
+* 9:4e800020 10:3ff00005 11:2f661aca
+* 9:014a8990 10:014a88c8 11:0180e4a0
+* 9:00230000 10:00230000 11:00230000
+8:00000000 * 10:0000063a 11:00000000
+8:05bd2790 * 10:fff09d8c 11:b1151000
+2 double-hummer alignment exceptions
+* 17:09293a68 18:096c9368 19:09707a38
+24:00004000 25:00000313 * 27:004bb280
+16:00000000 17:00016937 18:ffffffff *
+28:1feaa340 * 30:00212bf0 31:1feaa4c0
+24:00000000 25:1feaa4b0 26:00000001 *
+24:00001a3b * 26:00000000 27:00000000
+20:01980b98 21:0efe7d38 22:0efe7cf8 *
+* 29:00000001 30:000008ce 31:1feaa790
+16:0feea9fc 17:001f6854 * 19:0feea9b8
+uncorrectable error * in * bank 1...0
+24:00000000 25:0feea390 26:00000001 *
+correctable error * in * bank 0.....0
+24:1fefff40 25:00000004 26:000c65b0 *
+* 25:0000000a 26:1fefff60 27:009741e0
+28:0081a2f0 * 30:0feea380 31:009ec660
+28:0023abd4 29:00010000 * 31:88000000
+* 25:0000000f 26:1fefff60 27:006927d0
+28:00270000 * 30:008c7560 31:001fd2f8
+* 25:00000004 26:000c65b0 27:000c9ae0
+16:140d6070 * 18:141fae10 19:14048c50
+28:48000848 29:0000000b * 31:000865b0
+28:00040000 29:00000000 * 31:00000000
+28:00000800 * 30:1feaa3b0 31:1feaa3a0
+24:0180c6f0 25:0033b2a0 * 27:09048e30
+16:000000a5 17:000016a8 * 19:00000122
+16:00000570 * 18:00000024 19:00000024
+28:0da3a530 29:059674c0 30:0dfc8338 *
+16:1fea9a60 17:00000002 * 19:004c0000
+20:00000000 * 22:00b5d5b0 23:0feea380
+24:0f6e9850 25:0daa7b30 26:0f66c850 *
+28:ffffc0c8 29:0000013f 30:0000013f *
+20:00000000 * 22:00000000 23:1fefff40
+* 17:00080000 18:00000000 19:00000000
+20:0971cdf8 21:000000f4 * 23:00000080
+* processor.........................0
+16:00000000 17:00000001 * 19:00000000
+* 21:0fee0710 22:09047070 23:011e1bf0
+suppressing * interrupts of same type
+28:000894a4 29:00000001 * 31:b0000040
+28:00000006 29:00000004 30:00000001 *
+disable all * to cache directory....0
+28:017ffcd0 * 30:017ffc60 31:00f83ea0
+28:06a55c20 29:06a55c1c * 31:1feaa420
+20:0deed738 * 22:0f5ef850 23:0f572850
+24:0bdf73e0 * 26:00228ed0 27:00000008
+28:043b2184 * 30:03582180 31:043b21e4
+28:48000828 29:0000000b * 31:000865b0
+16:01c03500 * 18:00000900 19:00000060
+16:0fee0b9c 17:00000848 18:00000069 *
+* 21:0000055f 22:00000000 23:04ecf0a0
+20:08b146a8 21:00000000 22:08b146b0 *
+28:28004202 * 30:00089cd0 31:000894a8
+24:4c00010d * 26:0089dc60 27:00010000
+24:b1144000 25:00002000 26:00000008 *
+NFS * * * * * 3 seconds, retrying (2)
+CHECK_INITIAL_GLOBAL_INTERRUPT_VALUES
+28:00005651 29:0fee97f8 * 31:074ac9e4
+20:0fea0740 21:000001cb * 23:0fee0740
+20:00238a30 21:00238ce0 22:00238aa0 *
+24:002366e0 25:002363b8 * 27:0038d720
+16:094fd380 17:0947d370 * 19:00013444
+* 25:00000001 26:00089ae0 27:00040000
+28:48000848 29:0000000a * 31:000865b0
+24:097c6b0c 25:00000001 26:00000117 *
+28:48000828 29:00000009 * 31:000865b0
+28:01f80ba0 29:0e7e7d40 * 31:00000008
+28:00040000 29:00000070 30:00082d78 *
+program interrupt: * exception......0
+24:00082d90 * 26:fffffff4 27:00040000
+16:00000000 17:00089b10 18:001e7ea0 *
+24:0153e2f0 * 26:010afa30 27:090a1df0
+* bad * header: * * * * * * * * * * *
+16:00000bb8 17:00000bb8 * 19:094c4df0
+28:00000000 29:00d842b0 30:00ddab50 *
+20:00000001 * 22:00000100 23:0feea2f0
+28:84000000 29:00000561 * 31:00000000
+16:00000000 17:00089b10 * 19:000887dc
+16:01fabd68 * 18:019abd98 19:019ab9d8
+20:00000000 21:000020d0 * 23:00000003
+* 25:00003950 26:002570b0 27:00000083
+* 21:0fee0710 22:08f6a570 23:014a7df0
+* 21:ffffffff 22:00000008 23:00000001
+20:1fea9a28 * 22:00016bf0 23:0000000b
+* 25:00000015 26:1fefff60 27:006af930
+20:00000011 21:00000010 * 23:00143a94
+28:1fea8b60 * 30:00000000 31:09470eb0
+16:00000000 * 18:000887e4 19:00089b08
+24:00082d90 25:00000000 26:fffffff4 *
+28:00000060 * 30:13ec5d80 31:00000001
+24:06f4b0b8 25:140d6198 26:141f7818 *
+* 21:00001130 22:00000000 23:071430c8
+error threshold, * replacing the card
+16:00002260 * 18:00000001 19:11c6aa60
+16:00a29bb0 17:00000065 18:009e7d30 *
+* 25:0032b690 26:01abdb40 27:04661100
+20:00001c80 * 22:40000000 23:1fea8ce0
+16:0017b5e8 17:0017b030 * 19:0feea640
+28:ffffca68 29:00000000 30:000894a4 *
+16:029fa5f0 17:00000065 * 19:066a29a0
+16:000018e3 17:000000f5 18:000002c4 *
+28:48000828 29:0000000a * 31:000865b0
+16:0028e750 17:1fea9d00 * 19:00180000
+20:fffffff4 21:00000008 * 23:00000001
+Torus non-recoverable error * follow.
+28:00000060 * 30:0c288140 31:00000001
+16:00000029 17:00000031 * 19:0fea0710
+16:0000055f 17:0c5cc1e0 18:00000001 *
+24:00000003 25:17c5a000 * 27:00000200
+* 17:000001d0 18:00000030 19:0038adf0
+28:40000022 * 30:0047ac10 31:1feffff0
+24:01505b70 * 26:01306a70 27:09084df0
+24:00f9c330 * 26:00f9a930 27:09066b70
+16:069df3b0 17:06b563b0 * 19:004d8f30
+28:00388c70 * 30:002366e8 31:00236710
+28:0fea0680 29:0a013cc0 30:0a013940 *
+* 25:01fabdd8 26:01fabda0 27:01fab9e0
+* 29:045dbc80 30:045364c0 31:04661440
+* 21:001ecccc 22:00000800 23:0091e170
+28:300046b0 29:00000000 30:05bd26d0 *
+uncorrectable error * in * bank 0...0
+20:0000000d 21:00000010 22:00000180 *
+24:00000007 * 26:000008d9 27:00000000
+28:00005c30 29:00002130 * 31:01dbf2a0
+16:00000028 17:000000e4 18:000000e5 *
+28:0007d000 29:0b798900 * 31:00090b40
+28:30002150 * 30:000c5fd8 31:00000001
+20:00000000 21:00000001 * 23:00085fd8
+* 29:0026e740 30:00997ee0 31:00997e70
+20:0000000a 21:00000009 * 23:00000006
+20:fffffff4 21:00000008 * 23:00000000
+28:00000000 29:00070000 30:000c94a8 *
+24:00000000 25:00016bf0 26:004364d8 *
+28:000c8818 29:00070000 * 31:000c94a8
+16:17c64550 * 18:13ecf870 19:13ecf770
+20:00000000 * 22:00000000 23:00000000
+20:0000000a 21:00a9cb80 * 23:ffffffff
+16:08d14ff0 17:08d079a0 * 19:08bd8a18
+20:019ab998 21:0f012b38 * 23:0f012700
+20:00000001 * 22:00000800 23:1feaa460
+* 25:ffffffff 26:00089ae0 27:000894a4
+* 25:08b1e690 26:08c207a0 27:08d0b4a0
+* 17:08ea7660 18:000006a1 19:00000024
+28:48000848 29:00000008 * 31:000865b0
+* 29:00000010 30:1fea9bd4 31:1fea9c40
+* 29:08d89710 30:00000000 31:00166848
+20:0fea0740 21:00000091 22:045dbc80 *
+28:48000828 29:00000022 * 31:000865b0
+20:ffffffff 21:40000000 * 23:0feea440
+20:097c6b08 * 22:097a4ad0 23:00000004
+12:28244842 13:1eeeeeee 14:ffffffff *
+28:300015d0 29:00000000 30:05ff6f90 *
+20:00000009 * 22:00000008 23:00000000
+20:1feaa680 21:1feaa748 * 23:0022a210
+24:00000003 * 26:18424000 27:00000200
+20:00000151 21:0fee0710 22:09058630 *
+24:00000000 25:1fea8d6c 26:00000001 *
+20:00000024 * 22:00dfc898 23:08e7c7f0
+* is * * * this part * * * * * * root
+28:001f9c00 29:00023600 30:001f9280 *
+correctable error * in * bank 1.....0
+28:00211a50 * 30:0feea3c0 31:00b5d6b0
+* 21:1416a2d0 22:141f7840 23:14166d00
+16:00001130 17:0d856240 18:00000001 *
+* 21:01e60000 22:00360000 23:00000900
+24:014f4730 25:0033b2a0 * 27:090945f0
+24:1feaa7a0 25:00284538 * 27:00320000
+28:01fab9a0 29:0e812b40 * 31:00000008
+16:000000a9 * 18:000000df 19:0fea0710
+28:48000022 * 30:000c5fd8 31:00000001
+16:090337e8 17:09036418 * 19:0971e638
+24:0037d1e0 25:0000000e 26:000865b0 *
+16:002364a8 17:00236758 18:00230000 *
+* 25:00000035 26:0fea8738 27:087d2350
+20:0fea0700 21:000000ff * 23:00c80d80
+28:011e2270 * 30:00000008 31:00378d10
+28:0023a8f4 29:00010000 * 31:88000000
+28:30008e90 29:30008f40 30:00000000 *
+* 25:01f80fd8 26:01f80fa0 27:01f80be0
+28:1feaa340 * 30:00211ef0 31:1feaa4c0
+* 21:0fee0710 22:0900c3f0 23:00fdcff0
+16:0422afa0 * 18:03a92fa0 19:00000006
+24:000036c6 * 26:000865b0 27:00089ae0
+* 29:00220480 30:00000010 31:00220450
+* 17:00000000 18:00000002 19:0098e760
+28:00210df0 29:00000000 * 31:0111ef00
+20:00000030 * 22:00000080 23:00001800
+16:00364380 17:00440000 * 19:05f6da60
+16:001b0000 17:001b0000 18:001b0000 *
+NFS * * * * * 2 seconds, retrying (2)
+28:48000848 29:00000022 * 31:000865b0
+* 29:009e8340 30:00000000 31:0000001f
+* 29:000001ff 30:000001ff 31:000894a8
+* 25:00238ac8 26:0038b360 27:0038fe30
+24:00293808 25:002cf5e0 * 27:00274fb0
+24:00c7a218 25:003223e0 * 27:01d56830
+28:00000000 29:03384ef0 30:00040000 *
+24:000c2d80 * 26:00000000 27:00055950
+28:087c4f30 * 30:08789380 31:087886d0
+24:0347ed40 25:01b00000 * 27:00000060
+* 29:000000e3 30:00085fd8 31:00000001
+24:09218840 * 26:004e0000 27:0a154900
+* 29:30001510 30:00000000 31:30001400
+lr:0012cd60 cr:200024c4 xer:00000002 *
+lr:00004ed0 cr:28244842 * ctr:00086000
+lr:001283a0 cr:80000442 xer:00000002 *
+lr:00132230 cr:44202424 * ctr:00000003
+lr:0010c4ac cr:84084242 xer:00000002 *
+lr:004c0670 cr:20002424 * ctr:004c076c
+lr:0013f290 cr:24404888 * ctr:0013f0d8
+lr:0000b20c cr:40002424 xer:00000002 *
+lr:00106c28 cr:22004202 * ctr:00000000
+lr:00009f44 cr:84000024 * ctr:00000000
+lr:0000a2d0 cr:40004024 xer:20000002 *
+lr:0035fd54 cr:84000842 * ctr:00000000
+L3 global control register: 0x001249f0
+* * failed on * slept * seconds, * (1)
+lr:001490e4 cr:86404828 * ctr:00148f9c
+lr:0015435c cr:44002442 xer:00000002 *
+lr:00118244 cr:42424844 * ctr:00000001
+lr:0011ab5c cr:28004828 * ctr:0013b2f8
+lr:0013d378 cr:46004842 xer:00000002 *
+disable * lines 2:4..................0
+lr:0014b0bc cr:200024c4 * ctr:00165820
+lr:00109c30 cr:44484820 * ctr:00113b58
+lr:0000846c cr:48004242 * ctr:029ad752
+lr:0010c9d0 cr:84444424 * ctr:00000001
+* EDRAM pages as soon as possible....0
+lr:001aa670 cr:44002242 * ctr:001aaabc
+guaranteed data * block touch........1
+total * * ddr error(s) * and corrected
+lr:0010c3e4 cr:84084242 xer:00000002 *
+* Mount failed on * * 8 * retrying (2)
+lr:00149144 * xer:20000002 ctr:00148f9c
+* Mount failed on * * 13 * retrying (2)
+* cr:42000444 xer:00000002 ctr:00201390
+EndServiceAction * performed upon * * *
+* cr:880224e4 xer:20000002 ctr:0013c18c
+* cr:20000000 xer:00000002 ctr:0037a884
+Can * get assembly information * node *
+* Mount failed on * * 11 * retrying (2)
+core configuration register: 0x00002000
+* error threshold, * replacing the card
+NFS Mount * * * slept 24 seconds, * (1)
+* ddr * detected * * on rank 0, * * * 0
+program interrupt: * instruction......1
+* cr:84444422 xer:20000002 ctr:001bf7fc
+* * failed on * slept 16 seconds, * (1)
+lr:0035e0cc * xer:00000002 ctr:0037a884
+lr:00368da8 * xer:00000002 ctr:00368610
+* cr:24402442 xer:00000002 ctr:0037a8c4
+lr:004799e4 * xer:00000002 ctr:00481f5c
+* cr:84404442 xer:00000002 ctr:0000024b
+program interrupt: * instruction......0
+* cr:204044e2 xer:00000002 ctr:00000000
+lr:00174114 * xer:00000002 ctr:00102d20
+* Mount failed on * * 15 * retrying (2)
+mmcs_server * normally with exit code *
+* cr:24042424 xer:00000002 ctr:00060a92
+* Mount failed on * * 10 * retrying (2)
+lr:0036d808 * xer:00000002 ctr:0036d05c
+lr:0017df64 * xer:20000002 ctr:000000d6
+* cr:42404822 xer:20000002 ctr:0014704c
+total of 20 ddr error(s) detected and *
+* Mount failed on * * 14 * retrying (2)
+NodeCard power module * * not accessible
+* * bit sparing on R06-M0-L3-U20-C bit 6
+LinkCard power module * * not accessible
+* ddr * detected * * on * * symbol * * 4
+* Mount * on * * * seconds, retrying (2)
+* * errors(s) * * * on rank 0, * * bit 7
+machine * i-fetch......................0
+* * errors(s) * * * on rank 0, * * bit 5
+* L3 EDRAM error(s) (dcr 0x0157) * and *
+* is * * * this part * * * * * * orbeck1
+* is * * * this part * * * * * * bwallen
+* * errors(s) * and * * rank * * * bit 4
+* * errors(s) * and * * rank * * * bit 3
+* * errors(s) * * * on rank 0, * * bit 4
+* * errors(s) * * * on rank 0, * * bit 6
+* ddr * detected * * on * * symbol * * 6
+* ddr * * and * * rank 0, symbol * bit *
+* ddr * detected * * on * * symbol * * 5
+* ddr * detected and * on * 0, * * bit 0
+parity error in * * 0...................0
+* pap failed: R33-M1-L0-U22-C, * 00000000
+* is * * * this part * * * * * * smith386
+1 * * * * * (dcr * detected and corrected
+* is * * * this part * * * * * * gooding3
+parity error in * * PLB.................0
+* L3 directory error(s) * 0x0152) * and *
+Ido * status * * * * t=4 * * * 19 * PDT *
+* * bit sparing on R77-M0-L1-U19-C bit 11
+Ido * status * * * * t=1 * * * 03 * PDT *
+2 * * * * * (dcr * detected and corrected
+* is * * * this part * * * * * * pjmccart
+3 * * * * * (dcr * detected and corrected
+Ido * status * * * * t=4 * * * 03 * PDT *
+New * chip * into the database: * * v=9 *
+ciod: Message * 0 is not 51 or 4294967295
+Ido * status * * * * t=4 * * * 25 * PDT *
+Controlling BG/L rows [ 0 * 2 3 4 5 6 7 *
+parity error in * * 1...................0
+* * * * * * v=13 * status=M * * * * PDT *
+* * bit sparing on R25-M1-L0-U22-C bit 12
+* pap failed: R22-M0-L0-U22-D, * 00000000
+* of * ddr error(s) detected and corrected
+program interrupt: * instruction.........1
+* ddr errors(s) * and * on rank 0, * * * *
+* store interrupt caused by dcbf.........0
+* torus sender * * error(s) (dcr * * and *
+ciod: for node * read * request but * is *
+write buffer commit threshold............2
+program interrupt: * instruction.........0
+force load/store alignment...............0
+* 422 was performed upon R77-M0-L1 by root
+* exited abnormally due to signal: Aborted
+* store interrupt caused by icbi.........0
+machine check interrupt * * DCU read error
+DDR failing address * 0x00000008 0x0d552040
+4:00000008 5:0f7e7940 6:0f7e7d00 7:0f7e7d40
+4:00000bd5 5:071c9ae0 6:00002f54 7:00000000
+4:1feaa4f0 5:00000001 6:1feaa4ec 7:ff00ff00
+4:000c5fd8 5:000c65b0 6:01000309 7:000c9450
+4:0000000e 5:000865b0 6:1fea7b68 7:00089450
+4:0000000e 5:000865b0 6:1feaa238 7:00089464
+DDR failing address * 0x00000008 0x08958fa0
+1 * * * (dcr 0x0157) detected and corrected
+4:0000000e 5:000865b0 6:1fea7b68 7:0008948c
+4:1feaa4e0 5:00000001 6:1feaa4dc 7:ff00ff00
+DDR failing address * 0x00000000 0x00000000
+4:0000000e 5:000865b0 6:1feaa238 7:0008948c
+* * errors(s) * and corrected * * * * * * *
+4:167f5ff0 5:13ec5b80 6:17c63000 7:00001200
+4:b1144000 5:b1144000 6:009e7f40 7:00a29bb0
+4:00021328 5:00021494 6:000000b8 7:000c8560
+4:0037a8c4 5:00460000 6:00000000 7:00000000
+4:0000000e 5:000865b0 6:1feaa238 7:00089450
+* ddr * detected and * on rank 0, * * bit 0
+0:b2f98920 1:00088670 2:1eeeeeee 3:00088760
+4:d2f1a9fc 5:00000000 6:08b19588 7:08bd90a8
+* Mount failed on * slept 13 * retrying (1)
+4:0000000e 5:000865b0 6:fefefeff 7:0008948c
+4:50976980 5:00000010 6:00000050 7:00000070
+0:00009000 1:1fea9d90 2:1eeeeeee 3:17c5a000
+4:00000040 5:001d0000 6:00000010 7:009ec650
+4:00021328 5:00021494 6:000000b8 7:00088560
+ciod: pollControlDescriptors: * the * died.
+0:0000001c 1:0feea240 2:1eeeeeee 3:00000060
+4:03582180 5:00000000 6:00000060 7:7fffff97
+Ido chip * changed: * * * * * * Aug * * * *
+0:469e12bc 1:00088670 2:1eeeeeee 3:00088760
+4:ffff4854 5:80000000 6:00029bf0 7:00030000
+4:09baae88 5:0000015e 6:01803f98 7:4c00080b
+* chip * * * * * * status=M Fri Sep * * * *
+0:9c687620 1:00088670 2:1eeeeeee 3:00088760
+4:00001f82 5:b1144000 6:06412ce0 7:0cdc1fe0
+4:0021d210 5:1feaa59c 6:1feaa5a0 7:1feaa5a4
+0:fb68b708 1:00088670 2:1eeeeeee 3:00088760
+DDR failing address * 0x00000008 0x00236d80
+4:00000000 5:01306b40 6:0906e590 7:0fea0550
+3 * * * (dcr 0x0157) detected and corrected
+2 * * * (dcr 0x0157) detected and corrected
+6 L3 directory error(s) (dcr 0x0152) * and *
+memory manager * error.....................0
+memory * store buffer parity...............0
+* chip status * * * * t=1 * Fri Aug 05 * * *
+PrepareForService is being * * * rack * by *
+memory manager * parity error..............0
+NFS Mount failed on * slept * * retrying (1)
+program interrupt: * compare...............0
+* L3 * error(s) (dcr 0x0152) * and corrected
+8:00000003 9:fb033ecf 10:00950000 11:003a03e4
+* ddr * detected * * on rank * symbol * bit 1
+* manager uncorrectable error...............1
+8:00026100 9:00000000 10:00000000 11:00000009
+9 ddr errors(s) * and corrected * * * * * * 7
+* ddr * * and corrected * rank * symbol * * 2
+* activating redundant bit steering: rank=0 *
+program interrupt: fp cr field .............0
+8:0022af90 9:00230000 10:0022c5d0 11:0022d570
+* manager refresh contention................0
+store operation.............................0
+8:0f4c4108 9:0d563fc0 10:0d7679b8 11:05681130
+8:00210000 9:00000a8a 10:00000000 11:00000075
+8:1ff00000 9:00000001 10:000d0000 11:000d0000
+floating point operation....................1
+8:0e812700 9:0e812740 10:0e812b00 11:00000008
+28 L3 directory error(s) (dcr 0x0152) * and *
+Ido * * changed: * * v=13 t=4 * * * * * PDT *
+8:001024c2 9:00000001 10:1fe00000 11:00090000
+8:00007390 9:00000182 10:fff1f174 11:00000004
+8:00000001 9:0bde0038 10:03a92320 11:03a92f70
+26 L3 directory error(s) (dcr 0x0152) * and *
+17 L3 directory error(s) (dcr 0x0152) * and *
+8:001aa524 9:00000000 10:00000800 11:00000003
+14 L3 directory error(s) (dcr 0x0152) * and *
+8:00a2104c 9:0007e080 10:06412ce0 11:00000000
+8 ddr errors(s) * and corrected * * * * * * 6
+8:001073a2 9:00000002 10:0fe00000 11:00090000
+* ddr * detected * * on rank * symbol * bit 2
+30 L3 directory error(s) (dcr 0x0152) * and *
+* * errors(s) detected * * * rank * * * bit *
+8 ddr errors(s) * and corrected * * * * * * 7
+8:10cae050 9:b1150400 10:fff1f0fc 11:b1150400
+Lustre mount FAILED : * : block_id : location
+11 L3 directory error(s) (dcr 0x0152) * and *
+* manager * command manager address parity..0
+program interrupt: fp cr update.............0
+floating point operation....................0
+8:0134d4d0 9:00000028 10:ffffffe8 11:0134d420
+9 ddr errors(s) * and corrected * * * * * * 6
+store operation.............................1
+24 ddr errors(s) * and corrected * * * * * * 6
+6 ddr errors(s) detected * * * rank * * 5, * 5
+5 * receiver 0 in * state * * 0x01bc) detected
+5 ddr errors(s) detected * * * rank * * 5, * 4
+34 ddr errors(s) * and corrected * * * * * * 7
+* ddr errors(s) * and * on * 0, symbol * bit *
+25 ddr errors(s) * and corrected * * * * * * 7
+6 * receiver 0 in * state * * 0x01bc) detected
+5 ddr errors(s) detected * * * rank * * 5, * 5
+ciodb exited abnormally due to signal: Aborted
+4 * receiver 0 in * state * * 0x01bc) detected
+17 ddr * detected * * on rank * symbol * bit 7
+6 * receiver 1 in * state * * 0x0185) detected
+13 ddr errors(s) * and corrected * * * * * * 7
+* Mount failed * * slept 1 seconds, retrying *
+NFS Mount * * * slept 20 seconds, retrying (1)
+77 ddr errors(s) * and corrected * * * * * * 7
+22 ddr errors(s) * and corrected * * * * * * 7
+* * * detected and * on rank 0, symbol * bit *
+* has been * $Name: * $ * * * -loguserinfo * *
+5 ddr errors(s) detected * * * rank * * 5, * 6
+* * receiver * in re-synch state * * 0x019a) *
+7 * receiver 1 in * state * * 0x0185) detected
+4 ddr errors(s) detected * * * rank * * 5, * 7
+60 ddr errors(s) * and corrected * * * * * * 7
+26 ddr errors(s) * and corrected * * * * * * 7
+* shutting down * * * * mType(1)) as * * * * *
+BglIdoChip table * * IDOs with the same IP * *
+4 ddr errors(s) detected * * * rank * * 5, * 5
+26 ddr errors(s) * and corrected * * * * * * 6
+44 ddr errors(s) * and corrected * * * * * * 7
+11 ddr errors(s) * and corrected * * * * * * 6
+22 ddr errors(s) * and corrected * * * * * * 6
+25 ddr errors(s) * and corrected * * * * * * 6
+10 ddr errors(s) * and corrected * * * * * * 6
+5 ddr errors(s) detected * * * rank * * 5, * 7
+17 ddr * detected * * on rank * symbol * bit 6
+12 ddr errors(s) * and corrected * * * * * * 6
+5 * receiver 1 in * state * * 0x0185) detected
+29 ddr errors(s) * and corrected * * * * * * 7
+7 ddr errors(s) detected * * * rank * * 5, * 4
+11 ddr errors(s) * and corrected * * * * * * 7
+12 ddr errors(s) * and corrected * * * * * * 7
+29 ddr errors(s) * and corrected * * * * * * 6
+7 * receiver 0 in * state * * 0x01bc) detected
+* machine....................................0
+24 ddr errors(s) * and corrected * * * * * * 7
+10 ddr errors(s) * and corrected * * * * * * 7
+17 ddr * detected * * on rank * symbol * bit 5
+21 ddr errors(s) * and corrected * * * * * * 6
+4 ddr errors(s) detected * * * rank * * 5, * 6
+* of DDR we are caching...............1 (512M)
+4 * receiver 1 in * state * * 0x0185) detected
+21 ddr errors(s) * and corrected * * * * * * 7
+7 ddr errors(s) detected * * * rank * * 5, * 5
+13 ddr errors(s) * and corrected * * * * * * 6
+number of * with parity errors written to L3 *
+24:00000000 25:0feea3c0 26:00000002 27:00212b50
+116 ddr errors(s) * and corrected * * * * * * 7
+* failing data registers: 0x00000000 0x00000000
+5 ddr errors(s) detected * * * rank * * 10, * 6
+20:000001f4 21:0000000c 22:0036b7d8 23:30000000
+16:00000003 17:00000050 18:00000003 19:00000004
+20:004d96ac 21:0d6323c0 22:07bd4840 23:0567a810
+* ddr errors(s) * * corrected * rank 0, * * * *
+16:1a3a4f10 17:1842a5d0 18:0c294c30 19:0c294b30
+ciod: Error opening node map * * No such * or *
+20:00008000 21:001e7e94 22:00250000 23:00000026
+28:0f4ca300 29:00000000 30:0691eb40 31:1fea8d40
+7 ddr errors(s) detected * * * rank * * 10, * 4
+5 ddr errors(s) detected * * * rank * * 10, * 7
+28:014a87b0 29:08f6a570 30:08f806f0 31:09048cf0
+24:00000000 25:1feaa4b0 26:00000001 27:00211fa0
+20:001f684c 21:00000003 22:0feea9fc 23:001f65d8
+24:00000000 25:006c21ac 26:00000008 27:006c20d0
+* ddr * detected and corrected * * 0, * * bit *
+20:00008000 21:001e7e94 22:1feaa230 23:00000026
+28:011e9430 29:09058630 30:09088df0 31:090944f0
+16:0fea04f0 17:ffffff50 18:00000010 19:00000000
+24:00000000 25:00000005 26:ffffffff 27:00000000
+* generated * * * for program IMB-MPI1.2KB_func
+28:0feea610 29:00000003 30:0000015e 31:0000015e
+20:00000000 21:1feaa7b0 22:00000000 23:00000000
+* generated * * * for program IMB-MPI1.4KB_perf
+28:48000828 29:00000000 30:0000000e 31:000865b0
+28:00000000 29:09faec80 30:0001fbd0 31:09faecd0
+critical * * (unit=0x0b * warning for torus * *
+28:00788f60 29:00005afc 30:0d476760 31:0d6ebda0
+* ido chip inserted into the * * ip=0.0.0.0 * *
+24:0fee06fc 25:01cdb4e0 26:05cdb3e0 27:01cdadc0
+16:00558630 17:00089b10 18:00089b08 19:000887fc
+24:00082d70 25:00082d78 26:00000000 27:00082d78
+* * errors(s) detected * * on rank 0, * * bit *
+16:00000a43 17:00001434 18:00000a43 19:00000000
+20:00000052 21:0fee0710 22:ffffffff 23:0134d230
+28:14045658 29:141faf38 30:140d62e8 31:14166e28
+16:1fe12838 17:00000000 18:001e7ea0 19:ffffffff
+24:00000000 25:005cd1ec 26:00000008 27:005cd110
+NFS Mount failed on * * * seconds, retrying (1)
+131 ddr errors(s) * and corrected * * * * * * 7
+4 ddr errors(s) detected * * * rank * * 10, * 5
+16:00238bb8 17:00238e68 18:00240000 19:00238e50
+28:00008000 29:006af8d0 30:0000000b 31:00540000
+20:00000040 21:0fee0710 22:0fea8708 23:00005f00
+20:00008000 21:001e7e94 22:00250000 23:0037d7d0
+28:007b6d70 29:000000e3 30:00085fd8 31:00000001
+20:00000000 21:000133e0 22:00004cf8 23:66666667
+24:00085fdc 25:00000000 26:00000000 27:00015630
+28:00c80d48 29:00f97c30 30:00926dc0 31:00b0f6b0
+4 ddr errors(s) detected * * * rank * * 10, * 6
+16:01f80f68 17:01980fd8 18:01980f98 19:01980bd8
+28:00fdf6f0 29:0900c3f0 30:00000008 31:00378d10
+5 ddr errors(s) detected * * * rank * * 10, * 5
+6 ddr errors(s) detected * * * rank * * 10, * 4
+24:00000001 25:000277ec 26:00000002 27:00006102
+16:00000087 17:0000009f 18:000000a0 19:0fea0710
+* generated * * * for program IMB-MPI1.2KB_perf
+16:00000067 17:000000bd 18:000000be 19:0fea0710
+28:ffffc0c8 29:000001bf 30:000001bf 31:000894a8
+24:01803f98 25:0a4bac80 26:00000008 27:00000002
+28:00260000 29:087d1e00 30:00265110 31:00264560
+5 ddr errors(s) detected * * * rank * * 10, * 4
+28:0038b380 29:00238b70 30:00238df8 31:00238e20
+24:000c2d90 25:00000008 26:fffffff4 27:00055950
+* generated * * * for program IMB-MPI1.2MB_perf
+28:006af9f4 29:007c1fb0 30:00007e08 31:007c2000
+20:0111ba70 21:0101ba60 22:00100000 23:0feea350
+24:00000000 25:00000008 26:08abef50 27:009a3c70
+28:30005230 29:300052e0 30:00000000 31:300051d0
+20:001f7a4c 21:00084840 22:002570b0 23:00008484
+* generated * * * for program IMB-MPI1.1MB_perf
+20:00020000 21:00000000 22:00000002 23:006bf5b8
+24:00000000 25:1fea8d40 26:00000001 27:006af930
+16:0cdc1fe0 17:00000065 18:009e7400 19:1fea8b80
+4 ddr errors(s) detected * * * rank * * 10, * 7
+24:00000001 25:001ea6fc 26:0feea380 27:00212cd0
+20:0adf3200 21:0917d310 22:091fd320 23:0fee8c80
+16:1b3acb30 17:18709e10 18:10115c70 19:10115b70
+20:00000001 21:00000015 22:039f2328 23:039f2324
+* generated * * * for program IMB-MPI1.256B_perf
+* ddr errors(s) detected and * on rank * * * * *
+capture first DDR uncorrectable error address..0
+Bad * * into * * Jtag (4) Port (C) - 1 bad wires
+New ido chip inserted into the database: * * * *
+Bad * * into * * Jtag (0) Port (C) - 1 bad wires
+NodeCard temperature * chip U58 * not accessible
+NodeCard temperature * chip U52 * not accessible
+Bad * * into * * Jtag (4) Port (C) - 2 bad wires
+* * * * * * v=9 t=1 status=M * Jul 01 * PDT 2005
+NodeCard temperature * chip U54 * not accessible
+NodeCard temperature * chip U60 * not accessible
+Bad * * into * * Jtag (5) Port (C) - 4 bad wires
+17 ddr errors(s) detected * * * rank * * 10, * 3
+Bad * * into * * Jtag (5) Port (C) - 5 bad wires
+NodeCard temperature * chip U56 * not accessible
+lr:001280b0 cr:80002442 xer:00000002 ctr:0000fdc2
+lr:001490e4 cr:46404822 xer:20000002 ctr:00000000
+DDR machine check register: 0x00000000 0x00010010
+DDR failing data registers: 0x3f7af561 0xa4efc9a1
+* * * changed: * * v=13 * status=M * Sep 17 * * *
+lr:004222c4 cr:20000020 xer:00000002 ctr:0043e7e4
+* bad message * * * * * * * * * PSR1=00000000 * *
+lr:0013a454 cr:08002248 xer:00000002 ctr:00000000
+ddr: excessive soft failures, consider * the card
+* chip * changed: * * v=13 * * Wed Sep 07 * PDT *
+lr:0011e990 cr:48084444 xer:20000002 ctr:00000124
+lr:0014b240 cr:480042e4 xer:00000002 ctr:001658c0
+lr:0014b0fc cr:480022e4 xer:00000002 ctr:00165860
+* chip status * * * * * status=M * * * * PDT 2005
+lr:0018c994 cr:44004444 xer:20000002 ctr:0000ff35
+lr:00149100 cr:26404828 xer:20000002 ctr:00148f9c
+Bad * * into * * Jtag (2) Port (C) - 19 bad wires
+* Error creating node map from * * Block device *
+Ido * status changed: * * * t=4 * * * 02 * * 2005
+lr:003ee3b8 cr:84404444 xer:20000002 ctr:00000000
+DDR failing data registers: 0x00000000 0x00009b6f
+lr:0047ac14 cr:20000022 xer:20000002 ctr:00000000
+* exited abnormally due to signal: Segmentation *
+* chip * changed: * * * t=2 * Tue * 09 * PDT 2005
+lr:0010e064 cr:4440482c xer:20000002 ctr:00113b58
+NFS Mount failed on * slept * seconds, retrying *
+capture first directory uncorrectable * address..0
+* input * (unit=0x0b bit=0x0e): warning for * A0 *
+* ddr * detected and corrected * rank 0, * * bit *
+machine check interrupt (bit=0x09): * read error 0
+* input * (unit=0x0b bit=0x16): warning for * C0 *
+* input * (unit=0x0b bit=0x17): warning for * C1 *
+* input * (unit=0x0b bit=0x13): warning for * B1 *
+disable flagging of DDR UE's as * internal error.0
+regctl scancom interface.........................0
+* ddr errors(s) detected and * on rank * * * bit *
+BglIdoChip * has 20 IDOs * the same IP * (0.0.0.0)
+memory manager refresh...........................0
+memory manager RMW buffer parity.................0
+memory manager refresh counter timeout...........0
+* input * (unit=0x0b bit=0x12): warning for * B0 *
+memory manager miscompare........................0
+* input * (unit=0x0b bit=0x0f): warning for * A1 *
+memory and bus summary...........................0
+* ddr errors(s) detected and * * rank 0, * 0, bit *
+* torus receiver * input pipe error(s) (dcr * * * *
+Ido * status * * * v=13 * status=M * * * * PDT 2005
+machine * interrupt (bit=0x06): L3 * internal error
+* * status changed: * * v=13 t=1 * * Sep 20 * PDT *
+17 * errors(s) * * corrected * rank 0, symbol * * 6
+20 * receiver 2 in re-synch state * (dcr * detected
+17 * errors(s) * * corrected * rank 0, symbol * * 4
+17 * errors(s) * * corrected * rank 0, symbol * * 5
+PrepareForService is * done on * Midplane * * * * *
+* torus non-crc * (dcr 0x02fd) detected * corrected
+20 * receiver 1 in re-synch state * (dcr * detected
+3 torus * y+ input pipe error(s) * * * and corrected
+8 * * detected and corrected * rank * symbol * bit 0
+3 torus * z+ input pipe error(s) * * * and corrected
+1 torus * x- input pipe error(s) * * * and corrected
+1 torus * x+ input pipe error(s) * * * and corrected
+2 torus * z+ input pipe error(s) * * * and corrected
+2 torus * x- input pipe error(s) * * * and corrected
+capture first directory correctable error address..0
+* tree receiver * in * state event(s) (dcr 0x0185) *
+2 torus * y+ input pipe error(s) * * * and corrected
+3 torus * y- input pipe error(s) * * * and corrected
+1 torus * z+ input pipe error(s) * * * and corrected
+* chip * changed: * * v=13 t=1 * Sun Aug 07 * * 2005
+9 * * detected and corrected * rank * symbol * bit 0
+2 torus * y- input pipe error(s) * * * and corrected
+3 torus * x+ input pipe error(s) * * * and corrected
+ciod: Error * * program image too big, * > 532152320
+2 torus * z- input pipe error(s) * * * and corrected
+* * receiver * * * error(s) * * detected * corrected
+Bad * going into * * Jtag (4) Port (C) - * bad wires
+1 torus * y+ input pipe error(s) * * * and corrected
+Bad * going into * * Jtag (3) Port (C) - * bad wires
+* ddr * detected and corrected on rank 0, * 5, bit *
+* * * * retransmission * (dcr * detected * corrected
+Bad * going into * * Jtag (0) Port (C) - * bad wires
+* generated * * * for program /home/auselton/bgl/ior
+2 torus * x+ input pipe error(s) * * * and corrected
+1 torus * z- input pipe error(s) * * * and corrected
+1 torus * y- input pipe error(s) * * * and corrected
+NFS Mount failed on * slept 23 seconds, retrying (1)
+3 torus * x- input pipe error(s) * * * and corrected
+20 * * detected and corrected on rank * symbol * * *
+* ddr errors(s) * * corrected * rank 0, symbol * * *
+3 torus * z- input pipe error(s) * * * and corrected
+Bad * going into * * Jtag (5) Port (C) - * bad wires
+ciod: Error * * program image too big, * > 534511616
+* ddr * detected and corrected on rank 0, * 10, bit *
+22 * * detected and corrected * rank * symbol * bit 0
+* of correctable errors detected * L3 directories...0
+2 ddr errors(s) * and corrected * * 0, symbol * bit 2
+29 * * detected and corrected * rank * symbol * bit 0
+* ddr errors(s) detected * corrected on * * * * bit *
+3 ddr errors(s) * and corrected * * 0, symbol * bit 2
+13 * * detected and corrected * rank * symbol * bit 0
+* * receiver * in re-synch state * * 0x01bc) detected
+* tree receiver 2 in * state event(s) (dcr * detected
+17 * * detected and corrected * rank * symbol * bit 0
+* cable going into LinkCard * Jtag (1) Port * - * * *
+PrepareForService * * done on this part * * * * * * *
+10 * * detected and corrected * rank * symbol * bit 0
+19 * * detected and corrected * rank * symbol * bit 0
+15 * * detected and corrected * rank * symbol * bit 0
+11 * * detected and corrected * rank * symbol * bit 0
+2 ddr errors(s) * and corrected * * 0, symbol * bit 3
+30 * * detected and corrected * rank * symbol * bit 0
+New ido chip inserted into the database: * * v=13 t=4
+16 * * detected and corrected * rank * symbol * bit 0
+Ido * status changed: * * * t=2 * Thu * 04 * PDT 2005
+23 * * detected and corrected * rank * symbol * bit 0
+* of correctable errors detected * L3 EDRAMs........0
+21 * * detected and corrected * rank * symbol * bit 0
+3 ddr * detected and corrected * rank * symbol * bit 3
+162 * * detected and corrected * rank * symbol * bit 0
+Ido chip status * * * v=13 * * * Sep * 09:43:15 * 2005
+* * errors(s) detected * corrected on rank * * * bit *
+1 * errors(s) detected and * * rank 0, symbol 0, bit 3
+Ido chip status * * * v=13 * * * Sep * 07:45:44 * 2005
+Ido chip status * * * v=13 * * * Sep * 07:49:04 * 2005
+Ido chip status * * * v=13 * * * Sep * 07:50:44 * 2005
+* * errors(s) detected and * on rank * symbol 9, bit 1
+Ido chip status * * * v=13 * * * Sep * 08:00:44 * 2005
+Ido chip status * * * v=13 * * * Sep * 07:55:44 * 2005
+Ido chip status * * * v=13 * * * Sep * 07:52:24 * 2005
+3 * errors(s) detected and * * rank 0, symbol 0, bit 2
+Ido chip status * * * v=13 * * * Sep * 09:44:55 * 2005
+Ido chip status * * * v=13 * * * Sep * 09:34:55 * 2005
+1 * errors(s) detected and * * rank 0, symbol 0, bit 2
+Ido chip status * * * v=13 * * * Sep * 07:44:54 * 2005
+Ido chip status * * * v=13 * * * Sep * 07:47:24 * 2005
+* ddr errors(s) * * corrected on rank * symbol * bit *
+* torus * * retransmission * (dcr 0x02f9) detected * *
+* torus * * retransmission * (dcr 0x02f4) detected * *
+Ido chip status * * * v=13 * * * Sep * 09:48:15 * 2005
+Ido chip status * * * v=13 * * * Sep * 09:36:35 * 2005
+Ido chip status * * * v=13 * * * Sep * 07:54:04 * 2005
+1 * errors(s) detected and * * rank 0, symbol 0, bit 0
+Ido chip status * * * v=13 * * * Sep * 07:59:04 * 2005
+* kernel terminated for * * * * header: * cpu, * * * *
+* * errors(s) * and corrected * rank * symbol 5, bit *
+Ido chip status * * * v=9 * status=M * Aug 09 * * 2005
+* torus * * retransmission * (dcr 0x02f8) detected * *
+ciod: Error creating node map from file * Permission *
+Ido chip status * * * v=13 * * * Sep * 08:02:24 * 2005
+1 * errors(s) detected and * * rank 0, symbol 0, bit 4
+2 * errors(s) detected and * * rank 0, symbol 0, bit 0
+* torus * * retransmission * (dcr 0x02f6) detected * *
+Ido chip status * * * v=13 * * * Sep * 09:41:35 * 2005
+* * errors(s) detected and * on rank * symbol 2, bit 0
+* * * detected and corrected on rank 0, symbol * bit *
+Ido chip status * * * v=13 * * * Sep * 07:40:41 * 2005
+2 * errors(s) detected and * * rank 0, symbol 0, bit 1
+255 * * detected and corrected * rank * symbol * bit 0
+20 ddr errors(s) * and corrected * * 0, symbol * bit *
+2 * errors(s) detected and * * rank 0, symbol 0, bit 2
+3 * errors(s) detected and * * rank 0, symbol 0, bit 0
+Ido chip status * * * v=13 * * * Sep * 09:39:55 * 2005
+4 * errors(s) detected and * * rank 0, symbol 0, bit 0
+* torus * * retransmission * (dcr 0x02f7) detected * *
+Ido chip status * * * v=13 * * * Sep * 07:57:24 * 2005
+* torus * * retransmission * (dcr 0x02f5) detected * *
+1 * errors(s) detected and * * rank 0, symbol 0, bit 1
+EndServiceAction 410 was performed * R63-M0-L2 by root
+17 * errors(s) detected and corrected * * 0, * 2, bit 2
+* * errors(s) * and corrected * rank * symbol 10, bit *
+Found invalid node ecid in processor card slot * ecid *
+* chip status changed: * * v=9 t=2 * Thu * * * PDT 2005
+* * errors(s) detected and * on rank * symbol 20, bit 1
+* * errors(s) detected and * on rank * symbol 33, bit 0
+* L3 EDRAM error(s) (dcr 0x0157) detected and corrected
+* ddr errors(s) detected and * on rank * symbol * bit *
+* * errors(s) detected and corrected on rank 0, * * * *
+* * errors(s) detected and * on rank * symbol 15, bit 1
+* * errors(s) detected and * on rank * symbol 27, bit 1
+17 * errors(s) detected and corrected * * 0, * 2, bit 3
+* * errors(s) detected and * on rank * symbol 35, bit 1
+* * errors(s) detected and * on rank * symbol 34, bit 1
+17 * errors(s) detected and corrected * * 0, * 3, bit 2
+Node card VPD check: * * node, VPD * * in * card slot *
+ciod: Error creating node * from file * Cannot * memory
+1 ddr errors(s) detected * corrected * rank 0, * * bit 2
+* * receiver y+ * * error(s) (dcr * detected * corrected
+ciod: for node * * continuation request but ioState is 0
+17 * errors(s) detected and corrected * * 0, * 13, bit 2
+* * receiver z+ * * error(s) (dcr * detected * corrected
+17 * errors(s) detected and corrected * * 0, * 22, bit 2
+7 ddr errors(s) detected * corrected on * * symbol * * 6
+* tree receiver 2 in re-synch * event(s) (dcr * detected
+17 * errors(s) detected and corrected * * 0, * 30, bit 2
+* tree receiver 1 in re-synch * event(s) (dcr * detected
+7 ddr errors(s) detected * corrected on * * symbol * * 7
+5 * non-crc error(s) (dcr 0x02fd) detected and corrected
+* tree receiver 0 in re-synch * event(s) (dcr * detected
+17 * errors(s) detected and corrected * * 0, * 11, bit 3
+7 * non-crc error(s) (dcr 0x02fd) detected and corrected
+* Mount failed * bglio809, slept 4 seconds, retrying (2)
+1 * errors(s) detected and corrected on rank * * * bit 1
+* Mount failed * bglio506, slept 4 seconds, retrying (2)
+* * receiver x- * * error(s) (dcr * detected * corrected
+2 ddr errors(s) detected * corrected * rank 0, * * bit 1
+6 ddr errors(s) detected * corrected on * * symbol * * 7
+6 * non-crc error(s) (dcr 0x02fd) detected and corrected
+* Mount failed * bglio256, slept 4 seconds, retrying (2)
+* Mount failed * bglio643, slept 4 seconds, retrying (2)
+17 * errors(s) detected and corrected * * 0, * 35, bit 3
+* * receiver z- * * error(s) (dcr * detected * corrected
+17 * errors(s) detected and corrected * * 0, * 30, bit 3
+Ido chip status changed: * * v=13 t=1 * Tue * 09 * PDT *
+4 * non-crc error(s) (dcr 0x02fd) detected and corrected
+* * receiver x+ * * error(s) (dcr * detected * corrected
+2 * errors(s) detected and corrected on rank * * * bit 1
+* Mount failed * bglio817, slept 4 seconds, retrying (2)
+* Mount failed * bglio166, slept 4 seconds, retrying (2)
+* ddr * detected and corrected on rank 0, symbol * bit *
+17 * errors(s) detected and corrected * * 0, * 35, bit 2
+17 * errors(s) detected and corrected * * 0, * 31, bit 2
+2 ddr errors(s) detected * corrected * rank 0, * * bit 2
+1 * errors(s) detected and corrected on rank * * * bit 2
+6 ddr errors(s) detected * corrected on * * symbol * * 6
+* * receiver y- * * error(s) (dcr * detected * corrected
+ciod: for * * read continuation request but ioState is *
+20 * non-crc error(s) (dcr 0x02fd) detected and corrected
+Ido chip * * * * * t=4 status=M Sun Aug 07 11:34:15 PDT *
+ciod: * loading * * or missing * image, Permission denied
+* ddr errors(s) detected and corrected * rank * * * bit *
+Target=ido://FF:F2:9F:16:E8:1A:00:0D:60:E9:17:E5/JTAG/0 *
+Bad * going into LinkCard * Jtag (1) * (D) - 19 bad wires
+Ido chip * * * * * t=4 status=M Sun Aug 07 11:34:19 PDT *
+* ddr errors(s) detected and * on rank 0, symbol 5, bit *
+31 torus processor sram reception * * 0x02fc) detected * *
+Ido chip * changed: * * v=9 * status=M * Aug 07 * PDT 2005
+2 torus non-crc error(s) (dcr 0x02fd) detected * corrected
+27 torus processor sram reception * * 0x02fc) detected * *
+46 torus processor sram reception * * 0x02fc) detected * *
+41 torus processor sram reception * * 0x02fc) detected * *
+44 torus processor sram reception * * 0x02fc) detected * *
+33 torus processor sram reception * * 0x02fc) detected * *
+* ddr errors(s) detected and * on rank 0, symbol 10, bit *
+25 torus processor sram reception * * 0x02fc) detected * *
+96 torus processor sram reception * * 0x02fc) detected * *
+* * status changed: * * * t=4 status=M Mon * 08 * PDT 2005
+Ido chip * changed: * * v=9 * status=M * Aug 08 * PDT 2005
+1 torus non-crc error(s) (dcr 0x02fd) detected * corrected
+Ido chip * changed: * * v=9 * status=M * Sep 07 * PDT 2005
+14 torus processor sram reception * * 0x02fc) detected * *
+* chip status changed: * * * * status=M Sun Aug 07 * PDT *
+47 torus processor sram reception * * 0x02fc) detected * *
+3 torus non-crc error(s) (dcr 0x02fd) detected * corrected
+* ddr errors(s) detected and corrected on rank 0, * 8, * 1
+64 torus processor sram reception * * 0x02fc) detected * *
+* torus receiver * input pipe error(s) (dcr 0x02f1) * and *
+* ddr errors(s) detected and corrected on rank 0, * 28, * 0
+* torus receiver * input pipe error(s) (dcr 0x02ee) * and *
+Ido chip * changed: * * v=13 t=1 status=M * Aug 04 * * 2005
+* ddr errors(s) detected and corrected on rank 0, * 33, * 1
+* chip status changed: * * v=9 t=2 status=M Tue Sep * * * *
+* ddr errors(s) detected and corrected on rank 0, * 35, * 0
+6 * errors(s) detected * corrected * rank 0, symbol * bit 3
+3 * errors(s) detected * corrected * rank 0, symbol * bit 7
+3 * errors(s) detected * corrected * rank 0, symbol * bit 5
+* ddr errors(s) detected and corrected on rank 0, * 19, * 0
+* ddr errors(s) detected and corrected on rank 0, * 25, * 1
+* torus receiver * input pipe error(s) (dcr 0x02ed) * and *
+* ddr errors(s) detected and corrected on rank 0, * 35, * 1
+3 * errors(s) detected * corrected * rank 0, symbol * bit 6
+* ddr errors(s) detected and corrected on rank 0, * 12, * 0
+* ddr errors(s) detected and corrected on rank * * 5, bit *
+* ddr errors(s) detected and corrected on rank 0, * 15, * 1
+* ddr errors(s) detected and corrected on rank 0, * 33, * 0
+* ddr errors(s) detected and corrected on rank 0, * 28, * 1
+5 * errors(s) detected * corrected * rank 0, symbol * bit 3
+* torus receiver * input pipe error(s) (dcr 0x02ef) * and *
+7 * errors(s) detected * corrected * rank 0, symbol * bit 3
+* ddr errors(s) detected * corrected on rank * symbol * * *
+* ddr errors(s) detected and corrected on rank * * 10, bit *
+9 ddr errors(s) detected and corrected on * * symbol * bit 1
+L3 * errors exceeds threshold (iar 0xf003da3c lr 0xf003de50)
+Ido chip status changed: * * * * status=M Tue Sep 20 * PDT *
+* shutting down * * * * mType(4)) as part * Service Action *
+MidplaneSwitchController::sendTrain() port * R07-M1-L1-U19-E
+EndServiceAction 416 was performed upon R63-M0-L2 by pjmccart
+12 ddr errors(s) detected and corrected on * * symbol * bit 1
+Ido chip status changed: * * v=13 t=1 status=M Thu * 04 * * *
+54 ddr errors(s) detected and corrected on * * symbol * bit 1
+* ddr errors(s) detected and corrected on rank * symbol * * *
+16 ddr errors(s) detected and corrected on * * symbol * bit 2
+14 ddr errors(s) detected and corrected on * * symbol * bit 1
+* chip status changed: * * v=13 t=1 status=M Thu * 04 * PDT *
+* has been * ./BGLMaster * 127.0.0.1 * * * bglmaster.init * *
+* ddr errors(s) detected * corrected * rank 0, symbol * bit *
+10 ddr errors(s) detected and corrected on * * symbol * bit 1
+26 ddr errors(s) detected and corrected on * * symbol * bit 1
+62 ddr errors(s) detected and corrected on * * symbol * bit 1
+ciod: LOGIN chdir(/p/gb2/cjmundy/RUN_MED) * Permission denied
+30 ddr errors(s) detected and corrected on * * symbol * bit 1
+Ido chip status changed: * * v=13 t=1 status=M * Sep 20 * * *
+ciod: Error creating node * from file * Resource * unavailable
+ciod: cpu 0 at treeaddr * sent unrecognized message 0xffffffff
+134 ddr errors(s) detected and corrected on * * symbol * bit 1
+255 ddr errors(s) detected and corrected on * * symbol * bit 1
+5 * receiver * in re-synch state event(s) (dcr 0x019a) detected
+* * receiver * in re-synch state event(s) (dcr 0x01bc) detected
+MidplaneSwitchController * bit sparing on R33-M1-L0-U22-C bit 3
+7 * receiver * in re-synch state event(s) (dcr 0x019a) detected
+6 * receiver * in re-synch state event(s) (dcr 0x019a) detected
+* * receiver * in re-synch state event(s) (dcr 0x019a) detected
+* generated * * * for program /home/da/mpi-testscripts/alltoall
+* generated * * * for program /home/germann2/BGL-demo/SPaSM_mpi
+* chip status changed: * * v=13 t=4 * Tue Sep 20 09:28:22 PDT *
+4 * receiver * in re-synch state event(s) (dcr 0x019a) detected
+* * receiver * in re-synch state event(s) (dcr 0x0185) detected
+Ido chip status changed: * * v=13 t=4 status=M Thu Aug 04 * * *
+* chip status changed: * * v=13 t=4 * Tue Sep 20 09:28:33 PDT *
+ciod: LOGIN chdir(/p/gb2/cjmundy/RUN_SMALL) * Permission denied
+3 * receiver * in re-synch state event(s) (dcr 0x019a) detected
+MidplaneSwitchController * bit sparing on R27-M1-L3-U18-C bit 3
+1 ddr errors(s) detected and corrected on rank * symbol 5, bit *
+machine check interrupt (bit=0x1d): L2 dcache unit data parity *
+Ido chip status changed: * * v=9 t=4 status=M Fri Jul 01 * PDT *
+ciod: LOGIN chdir(/p/gb2/cjmundy/cur/cpmd.x) * Permission denied
+Ido chip status changed: * * v=9 * status=M * * 20 09:28:21 PDT *
+Ido chip status changed: * * v=13 t=4 status=M Tue Aug 09 * PDT *
+Ido chip status changed: * * v=9 * status=M * * 20 09:28:33 PDT *
+1 ddr errors(s) detected and corrected on rank * symbol 10, bit *
+Ido chip status changed: * * v=13 t=4 status=M Thu Aug 04 * PDT *
+Ido chip status changed: * * v=9 * status=M * * 20 09:28:37 PDT *
+Ido * status changed: * ip=10.0.0.10 * t=2 * Tue Aug 02 * PDT 2005
+Ido * status changed: * ip=10.0.0.31 * t=2 * Tue Aug 02 * PDT 2005
+Ido * status changed: * ip=10.0.0.81 * t=2 * Tue Aug 02 * PDT 2005
+Ido chip status changed: * * v=13 t=4 status=M Tue Aug 09 * * 2005
+Ido * status changed: * ip=10.1.0.52 * t=2 * Tue Aug 02 * PDT 2005
+Ido * status changed: * ip=10.1.0.12 * t=2 * Tue Aug 02 * PDT 2005
+* generated * * * for program /home/germann2/SPaSM_static/SPaSM_O2
+Ido * status changed: * ip=10.0.0.54 * t=2 * Tue Aug 02 * PDT 2005
+ciod: LOGIN chdir(/home/bertsch2/src/bgl_hello) * Permission denied
+20 torus * x- retransmission error(s) (dcr * detected and corrected
+20 torus * y- retransmission error(s) (dcr * detected and corrected
+ciod: sendMsgToDebugger: error * PROGRAM_EXITED message * debugger.
+ciod: T coordinate 1 exceeds * dimension 1 * line * of * map file *
+* generated * * * for program /home/germann2/SPaSM_static/SPaSM_mpi
+ciod: LOGIN chdir(/home/spelce1/sppmopt716/run) * Permission denied
+* generated * * * for program /home/germann2/SPaSM_static/SPaSM_O2d
+PrepareForService shutting * * * * * mType(1)) as part * * Action *
+ciod: * loading * invalid * missing program * No such * * directory
+Ido * status changed: * ip=10.6.0.202 * t=2 * Tue Aug 02 * PDT 2005
+371 torus sender * ecc error(s) (dcr 0x02f2) detected and corrected
+ciod: Error * * invalid or missing program image, Exec format error
+20 torus * z+ retransmission error(s) (dcr * detected and corrected
+20 torus * y+ retransmission error(s) (dcr * detected and corrected
+20 torus * z- retransmission error(s) (dcr * detected and corrected
+* torus receiver x+ input pipe * (dcr 0x02ec) detected and corrected
+Ido chip * changed: * * v=13 t=4 status=M Thu Aug 04 08:34:02 * 2005
+Ido chip status changed: * * v=13 t=4 status=M Fri Jul 01 * PDT 2005
+* torus receiver z- input pipe * (dcr 0x02f1) detected and corrected
+* has been * ./mmcs_db_server * BGL * * * /bgl/BlueLight/logs/BGL * *
+While inserting monitor info into DB * java.lang.NullPointerException
+* generated * * * for program /bgl/apps/SWL/stability/DDCMD//ddcMDbglV
+Ido chip status changed: * * v=13 t=4 status=M Tue Sep 20 12:11:49 * *
+Ido chip status changed: * * v=13 t=1 status=M Tue Sep 20 12:11:48 * *
+3 torus processor sram reception error(s) (dcr 0x02fc) * and corrected
+1 torus processor sram reception error(s) (dcr 0x02fc) * and corrected
+2 torus processor sram reception error(s) (dcr 0x02fc) * and corrected
+* kernel terminated for * * * message header: * * packets, * cpu=0, * *
+ciod: Unexpected eof * * 513 of node map file ./map-xyzt-8x8x16x1-2-mid
+external input interrupt * bit=0x01): tree header with no target waiting
+DeclareServiceNetworkCharacteristics has been run but the * is not empty
+Ido chip status changed: * * v=13 t=4 status=M Thu Aug 04 08:33:57 PDT *
+Ido chip status changed: * * v=13 t=4 status=M Thu Aug 04 08:34:41 PDT *
+external input interrupt (unit=0x02 bit=0x00): uncorrectable torus error
+Ido chip * changed: * ip=10.0.1.16 v=13 t=4 * Tue Jun * 13:51:30 PDT 2005
+* * terminated for reason 1002rts: bad message * too * packets, * * * * m
+power module status fault detected * node * status registers are: 0/0/1/1
+Ido chip * changed: * ip=10.1.1.75 v=13 t=4 * Fri Jun * 07:25:00 PDT 2005
+Node card VPD check: * node in * card slot * do not match. VPD ecid * * *
+Ido chip * changed: * ip=10.1.0.27 v=13 t=4 * Wed Jul * 20:08:53 PDT 2005
+external input interrupt * bit=0x0e): torus sender * * error was corrected
+SerialNumber(000000000000000000000000fff29f16e842000d60e917bd) * Status(A)
+external input interrupt * bit=0x0d): torus sender * * error was corrected
+external input interrupt * bit=0x0b): torus sender * * error was corrected
+external input interrupt * bit=0x0c): torus sender * * error was corrected
+* generated * * * for program /home/bertsch2/src/bgl_coredump/mpi_coredump
+Ido chip * changed: * ip=10.0.1.107 v=13 t=4 * Tue Jun * 07:51:16 PDT 2005
+SerialNumber(000000000000000000000000fff29f16eb54000d60e914ab) * Status(A)
+external input interrupt * bit=0x0a): torus sender * * error was corrected
+external input interrupt * bit=0x09): torus sender * * error was corrected
+EndServiceAction is restarting the LinkCards in midplane * as part * * * *
+Ido chip * changed: * ip=10.3.1.147 v=13 t=4 * Tue Jun * 07:36:58 PDT 2005
+Ido chip status changed: * * v=13 t=4 status=M Tue Sep 20 12:11:48 PDT 2005
+* Error creating node map from file ./map-xyzt-8x8x16x1-2-mid: * * processes
+ciod: In packet from node * * message * 2 is not 3 * * * 00030000 00000001 *
+ciod: In packet from node * * message * 2 is not 3 * * * 000367f2 00000001 *
+ciod: failed to read message prefix on control stream (CioStream socket to *
+2005 torus receiver * input pipe error(s) (dcr 0x02ee) detected and corrected
+EndServiceAction is * the NodeCards in midplane * as part of Service Action *
+* bad message * * 0 greater than total 0 * 7ffffc40 00000000 00000000) * * * *
+rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ * got: C X+ Y- *
+* generated * * * for program /home/glosli/src/ddcMD/ddcMD1.1.17/bin/ddcMDbglV
+rts: kernel * for reason 1002rts: * message header: too * * type=9, cpu=0, * *
+* bad message * * 0 greater than total 0 * 00000001 00000000 00000000) * * * *
+* bad message * * 0 greater than total 0 * 00000000 00000000 00000000) * * * *
+Target=ido://FF:F2:9F:16:E6:86:00:0D:60:E9:19:79/JTAG/8 Message=Pll failed to *
+* tree/torus link training failed: wanted: B C X+ X- * Y- * * * B C X- Y+ * * *
+* tree/torus link training failed: wanted: A C X+ X- * Y- * * * A C X+ X- * * *
+* tree/torus link training failed: wanted: B C X+ X- * Y- * * * B C X+ X- * * *
+rts tree/torus link training failed: wanted: B C X+ X- * Y- * * got: B C X- * *
+* tree/torus link training failed: wanted: A B C X+ * Y+ * * * got: A B C * * *
+* tree/torus link training failed: wanted: A C X+ X- * Y- * * * A C X- Y+ * * *
+* tree/torus link training failed: wanted: A C X+ X- * Y- * * * A C X+ Y+ * * *
+rts tree/torus link training failed: wanted: C X+ X- Y+ Y- * * got: C X- Y+ Y- *
+MidplaneSwitchController::parityAlignment() * failed: * status=ff7ffffc 0fffff00
+rts: * * header: * * invalid * * * * PSR0=00000101 PSR1=00000000 * PIXF=00000007
+rts: * * header: * * invalid * * * * PSR0=00000000 PSR1=00000000 * PIXF=00000007
+external input interrupt (unit=0x05 bit=0x06): 1M tree receiver 2 * resynch mode
+* tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ * got: A C X+ Y+ *
+MailboxMonitor::serviceMailboxes() lib_ido_error: -1114 * socket error: Broken *
+rts: * * header: * * invalid * * * * PSR0=00000100 PSR1=00000000 * PIXF=00000007
+Target=ido://FF:F2:9F:16:E6:86:00:0D:60:E9:19:79/JTAG/14 Message=Pll failed to *
+rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ * got: C X+ Y- Z+ *
+* tree/torus link training failed: wanted: A B C X+ * Y+ * * * got: C X- Y+ * * *
+rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ * got: C X+ X- Y- *
+rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ * got: C X+ Y+ Y- *
+ciod: * * core files for program /home/glosli/src/ddcMD/ddcMD1.1.17/bin/ddcMDbglV
+rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- * * got: B C X- Y- *
+* bad * header: * type * instead * type * * * * * * PSR1=00000000 PRXF=00020002 *
+* bad * header: * type * instead * type * * * * * * PSR1=00000000 PRXF=00000002 *
+rts tree/torus link training failed: wanted: C X+ X- Y+ Y- * * got: C X- Y+ Y- * *
+rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ * got: C X+ Y+ Y- Z+
+MidplaneSwitchController::parityAlignment() pap failed: * status=000a0000 001a0000
+rts: kernel * for * 1002rts: bad message header: too many packets, type=0, * * * *
+* Error reading message prefix after UNKNOWN on CioStream socket to * Link has * *
+rts tree/torus link training failed: wanted: B C X+ X- * Y- * * got: B C X- * Y- *
+rts tree/torus link training failed: wanted: C X+ X- Y+ Y- * * got: C X+ X- Y- * *
+rts tree/torus link training failed: wanted: A C X+ X- * Y- Z+ * got: A C X- * Y- *
+* 10 active FanModules, * found 9 ( Found J300 * * J303 J304 J305 J306 J307 J308 ).
+rts tree/torus link training failed: wanted: C X+ X- Y+ Y- * * got: C X+ X- Y+ Y- *
+* tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ * got: A C X+ Y- Z+ *
+* 10 active FanModules, * found 9 ( Found J300 * * J303 J304 J306 J307 J308 J309 ).
+rts tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ * got: A C X+ Y- Z+
+ciod: generated 20 * * for program /home/glosli/src/ddcMD/ddcMD1.1.17/bin/ddcMDbglV
+rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- * * got: B C X- Y+ * *
+* tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ * got: A C X+ Y+ Z+ *
+Node card VPD check: U01 node in processor card slot * do not match. VPD ecid * * *
+rts tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ * got: A C X+ Y+ Z+
+rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- * * got: B C X- Y- * *
+rts tree/torus link training failed: wanted: A C X+ X- * Y- Z+ * got: A C X+ * Y- *
+Node card VPD check: U11 node in processor card slot * do not match. VPD ecid * * *
+rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- * * got: B C X+ X- Y- *
+rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- * * got: B C X+ X- Y+ *
+rts tree/torus link training failed: wanted: A C X+ X- Y+ Y- * * got: A C X- Y+ Y- *
+rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ * got: C X+ X- Y+ Y- *
+ciod: LOGIN open(/bgl/apps/scaletest/performance/linpack-64x512/) * Permission denied
+SerialNumber(000000000000000000000000fff29f16e686000d60e91979) IpAddress(10.0.1.12) *
+rts tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ * got: A C X+ X- Y+ *
+rts tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ * got: A C X+ Y+ Y- Z+
+rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ Z- got: C X+ Y+ Y- Z+ Z-
+rts: kernel * for * 1002rts: bad message header: too many packets, type=32796, * * * *
+rts tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ * got: A C X+ X- Y+ Z+
+rts tree/torus link training failed: wanted: A B C X+ X- * Y- * * got: A B C X- * Y- *
+rts tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ * got: A C X+ X- Y- Z+
+rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- * * got: A B C X- Y+ * *
+rts tree/torus link training failed: wanted: A B C X+ X- * Y- Z+ * got: A B C X+ X- * *
+rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- * * got: A B C X- Y- * *
+* generated * * * for program /bgl/apps/swl-prep/ibm-swl/functional/sppm_chkpt/run/sppm
+DeclareServiceNetworkCharacteristics has been run with the * option * the DB * not empty
+MidplaneSwitchController::receiveTrain() iap * R63-M0-L2-U21-A, status=ffbffbff ec000000
+rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- * * got: A B C X+ X- Y- *
+rts tree/torus link training failed: wanted: A B C X+ X- * Y- * * got: A B C X- * Y- * *
+MidplaneSwitchController::receiveTrain() iap * R72-M1-L1-U18-A, status=beeaabff ec000000
+MidplaneSwitchController::parityAlignment() * failed: R56-M1-L3-U22-C, status=dfffffff *
+rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- * * got: A B C X+ X- Y+ *
+rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- * * got: C X+ X- Y+ Y- * *
+rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ * got: A B C X+ X- Y- *
+* generated * * * for program /bgl/apps/scaletest/performance/IMB_2.3_243_64K/IMB-MPI1.gp2
+rts tree/torus link training failed: wanted: A B C X+ X- * Y- Z+ * got: A B C X+ X- * Y- *
+rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- * * got: A B C X+ X- Y- * *
+* generated * * * for program /bgl/apps/swl-prep/ibm-swl/functional/sppm_chkpt_mp/run/sppm
+rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- * * got: A B C X+ X- Y+ * *
+rts: kernel terminated for * * bad message header: expecting * 1, type=3, cpu=0, * total=1
+rts: kernel terminated for * * bad message header: expecting * 53, type=0, cpu=0, * total=2
+rts: kernel terminated for * * bad message header: expecting * 53, type=0, cpu=0, * total=1
+rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- * * got: A B C X+ X- Y+ Y- *
+ciod: * * core files for program /bgl/apps/SWL/functional/mpich2-1.0.1/test/mpi/coll/icbcast
+SerialNumber(000000000000000000000000fff29f16ebdb000d60e91424) IpAddress(10.0.1.8) Status(A)
+SerialNumber(000000000000000000000000fff29f16eb68000d60e91497) IpAddress(10.0.1.8) Status(A)
+* chip status * FF:F2:9F:15:7F:D7:00:0D:60:EA:80:28 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7D:8E:00:0D:60:EA:82:71 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7F:FE:00:0D:60:EA:80:01 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7C:22:00:0D:60:EA:83:DD * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7E:4F:00:0D:60:EA:81:B0 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7E:E6:00:0D:60:EA:81:19 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7E:0B:00:0D:60:EA:81:F4 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7F:FF:00:0D:60:EA:80:00 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+ciod: * * core files for program /bgl/apps/swl-prep/ibm-swl/functional/sppm_chkpt_mp/run/sppm
+* chip status * FF:F2:9F:15:7E:23:00:0D:60:EA:81:DC * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7E:3E:00:0D:60:EA:81:C1 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7E:46:00:0D:60:EA:81:B9 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7F:DF:00:0D:60:EA:80:20 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7D:9C:00:0D:60:EA:82:63 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7E:07:00:0D:60:EA:81:F8 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7C:21:00:0D:60:EA:83:DE * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7E:47:00:0D:60:EA:81:B8 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7F:E5:00:0D:60:EA:80:1A * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7E:50:00:0D:60:EA:81:AF * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+SerialNumber(000000000000000000000000fff29f16ebb3000d60e9144c) IpAddress(10.0.1.12) Status(A)
+* chip status * FF:F2:9F:15:7E:28:00:0D:60:EA:81:D7 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7C:20:00:0D:60:EA:83:DF * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7D:76:00:0D:60:EA:82:89 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7E:1B:00:0D:60:EA:81:E4 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7E:48:00:0D:60:EA:81:B7 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7E:3C:00:0D:60:EA:81:C3 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+ciod: Error creating * * from file /p/gb2/welcome3/32k_128x256x1_8x4x4.map: * file descriptor
+rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ * got: A C X+ X- Y+ Y- Z+ *
+* chip status * FF:F2:9F:15:7E:06:00:0D:60:EA:81:F9 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7E:04:00:0D:60:EA:81:FB * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7F:E3:00:0D:60:EA:80:1C * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+* chip status * FF:F2:9F:15:7D:9E:00:0D:60:EA:82:61 * v=13 t=1 status=M Fri Jul 01 * PDT 2005
+ciod: Error reading message prefix after VERSION_MESSAGE on CioStream socket to * Link has * *
+ciod: Error reading message prefix after LOAD_MESSAGE on CioStream * to * Connection reset * *
+ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to * Link has been *
+ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to * Link has been *
+* generated * * * for program /bgl/apps/scaletest/performance/IMB_2.3_243_64K/IMB-MPI1.gp2_perf
+rts: kernel terminated for * * bad message header: expecting * 53, type=25778, cpu=0, * total=1
+MidplaneSwitchController::parityAlignment() * failed: R56-M1-L3-U22-C, status=ffffffff ffffff80
+rts: kernel terminated for * * bad message header: expecting * 53, type=20992, cpu=0, * total=1
+rts: kernel terminated for * * bad message header: expecting * 53, type=61747, cpu=0, * total=1
+rts: kernel terminated for * * bad message header: expecting * 53, type=60441, cpu=0, * total=1
+ciod: Error creating node map from file /home/pakin1/comms-conc/xyzt-1x1x32768x1.map: * address
+ciod: Missing or invalid fields * * 1 of node * file /home/auselton/bgl/64mps.sequential.mapfile
+rts: kernel terminated for reason 1001rts: bad message header: * cpu, * cpu=66, index=0, total=1
+ciod: Unexpected eof * * 8193 of node map file /p/gb2/cabot/miranda/newmaps/8k_128x64x1_8x4x4.map
+* generated * * * for program /home/spelce1/HPCC_IBM/TomAndJeff/bin/tested_copro/tested_copro.rts
+* * message * cpu * invalid (softheader=ffffffff * * * PSR0=00000000 * PRXF=0000002a PIXF=00000007
+* * message * cpu * invalid (softheader=7ffffc30 * * * PSR0=00000000 * PRXF=0000002a PIXF=00000007
+monitor caught java.lang.UnsupportedOperationException: power module U69 not present * is stopping
+* * message * cpu * invalid (softheader=10010000 * * * PSR0=00000000 * PRXF=0000002a PIXF=00000007
+rts: bad message header: packet index * greater than * 366 * * * * * PSR1=00000000 PRXF=0000002a *
+* * message * cpu * invalid (softheader=7ffffbe0 * * * PSR0=00000000 * PRXF=0000002a PIXF=00000007
+monitor caught java.lang.UnsupportedOperationException: power module U68 not present * is stopping
+* * * header: packet index * * than * * * 00000000 * * * PSR1=00000000 PRXF=00000002 PIXF=00000007
+* * * header: packet index * * than * * * 00000001 * * * PSR1=00000000 PRXF=00000002 PIXF=00000007
+* * * header: packet index * * than * * * 100bac60 * * * PSR1=00000000 PRXF=0002000a PIXF=00000007
+* * * header: packet index * * than * * * 7ffffc40 * * * PSR1=00000000 PRXF=0002000a PIXF=00000007
+* * message * cpu * invalid (softheader=430c07ac * * * PSR0=00000000 * PRXF=0000002a PIXF=00000007
+* * * header: packet index * * than * * * 00000001 * * * PSR1=00000000 PRXF=0000002a PIXF=00000007
+* * message * cpu * invalid (softheader=7ffffc00 * * * PSR0=00000000 * PRXF=0000002a PIXF=00000007
+Missing reverse * Cable * 0 * * * * 0 C * * present BUT * reverse cable * 5 * * * * 5 C * * missing
+Missing reverse * Cable * 5 * * * * 5 C * * present BUT * reverse cable * 0 * * * * 0 C * * missing
+external input interrupt (unit=0x01 bit=0x09): number of corrected SRAM errors * exceeded threshold
+ciod: Missing or invalid fields * * 1 of node * file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map
+Ido chip status * FF:F2:9F:16:EB:E0:00:0D:60:E9:14:1F ip=10.0.1.131 * t=4 status=M * Jun 29 * * 2005
+* bad message header: * type * * * type * * * 00000001 * * PSR1=00000000 PRXF=00000002 PIXF=00000007
+* generated * * * for program /bgl/apps/swl-prep/ibm-swl/functional/umt2k_chkpt/ckpt_umt2k_src/umt2k
+Ido chip status * FF:F2:9F:16:EA:71:00:0D:60:E9:15:8E ip=10.0.0.107 * t=4 status=M * Jun 27 * * 2005
+ciod: generated 20 * * for program /bgl/apps/scaletest/performance/IMB_2.3_243_64K/IMB-MPI1.gp2_perf
+* bad message header: * type * * * type * * * 00000001 * * PSR1=00000000 PRXF=0000002a PIXF=00000007
+MailboxMonitor::serviceMailboxes() lib_ido_error: * BGLERR_IDO_PKT_TIMEOUT connection lost to * card
+* Error creating node map from file /p/gb2/cabot/miranda/newmaps/8k_128x64x1_8x4x4.map: * * processes
+* generated * * * for program /home/spelce1/HPCC_IBM/TomAndJeff/bin/untested_copro/untested_copro.rts
+Target=ido://FF:F2:9F:16:E6:04:00:0D:60:E9:19:FB/JTAG/0 Message=JtagId All all * power good may be low
+* has been * /bgl/BlueLight/ppcfloor/bglsys/bin/mmcs_db_server * BGL * * * /bgl/BlueLight/logs/BGL * *
+* register: machine * register: machine * register: machine * register: machine * register: machine * re
+* X * 8 exceeds physical dimension 8 at line * * node * file /home/fgygi/qb/test/h2o/h2o512/txyz1024.map
+ciod: Error creating * * from file /home/pakin1/sweep3d-2.2b/results/sweep-8x8x8x1.map: * file descriptor
+BGLMaster has been started: ./BGLMaster --consoleip 127.0.0.1 --consoleport * --configfile bglmaster.init
+ciod: Error creating node map from file /home/pakin1/sweep3d-2.2b/results/xyzt-8x32x32x2.map: Permission *
+* reverse cable: Cable * * F * --> * * C (J14) is present BUT * reverse cable * * F * --> * * C (J06) is *
+* reverse cable: Cable * * F * --> * * C (J06) is present BUT * reverse cable * * F * --> * * C (J14) is *
+ciod: Error creating node map from file /home/pakin1/sweep3d-2.2b/results/tzyx-8x32x32x2.map: Permission *
+ciod: Error creating * * from file /home/williams/miranda/src/vx_32k_256x256x1_8x4x4.map: * file descriptor
+* Z * 32 exceeds physical dimension 32 at line * * node * file /home/pakin1/comms-conc/xyzt-1x1x32768x1.map
+gister: machine * register: machine * register: machine * register: machine * register: machine * register:
+machine * register: machine * register: machine * register: machine * register: machine * register: machine
+rts: * message header: expecting type 53 instead of type 1 * 00000001 00000001 00000000) * PSR1=00000000 * *
+ciod: Error creating node map from file /home/pakin1/sweep3d-2.2b/results/random2-8x32x32x2.map: Permission *
+ciod: Error creating node map from file /home/pakin1/sweep3d-2.2b/results/random1-8x32x32x2.map: Permission *
+Missing reverse cable: Cable * 4 E * --> * 4 * (J15) is * BUT the reverse cable * * E * --> * * * * is missing
+Node card VPD check: U11 node in processor card slot * do not match. VPD * * found 0000000000000000000000000000
+* Unable to * rank=0, symbol=0 - rank * already * symbol * Due to multiple symbols being over the correctable e
+* Unable to * rank=0, symbol=5 - rank * already * symbol * Due to multiple symbols being over the correctable e
+* Unable to * rank=0, symbol=4 - rank * already * symbol * Due to multiple symbols being over the correctable e
+ciod: Error creating node map from file /p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map: * address
+ciod: Error loading ../homme/build.Linux/preqx -n 1800: invalid * missing program image, * such file * directory
+* reverse cable: Cable * 2 F * --> R06-M1-L3 2 * (J08) * * * the reverse cable R06-M1-L3 3 F * --> * 3 * (J10) * *
+* reverse cable: Cable * 3 F * --> R04-M1-L0 3 * (J10) * * * the reverse cable R04-M1-L0 2 F * --> * 2 * (J08) * *
+* reverse cable: Cable * 3 F * --> R07-M1-L0 3 * (J10) * * * the reverse cable R07-M1-L0 2 F * --> * 2 * (J08) * *
+* reverse cable: Cable * 3 F * --> R00-M1-L2 3 * (J10) * * * the reverse cable R00-M1-L2 2 F * --> * 2 * (J08) * *
+* reverse cable: Cable * 3 F * --> R02-M1-L3 3 * (J10) * * * the reverse cable R02-M1-L3 2 F * --> * 2 * (J08) * *
+* reverse cable: Cable * 3 F * --> R02-M1-L1 3 * (J10) * * * the reverse cable R02-M1-L1 2 F * --> * 2 * (J08) * *
+* reverse cable: Cable * 2 F * --> R05-M1-L3 2 * (J08) * * * the reverse cable R05-M1-L3 3 F * --> * 3 * (J10) * *
+* reverse cable: Cable * 3 F * --> R04-M0-L2 3 * (J10) * * * the reverse cable R04-M0-L2 2 F * --> * 2 * (J08) * *
+* reverse cable: Cable * 3 F * --> R01-M1-L2 3 * (J10) * * * the reverse cable R01-M1-L2 2 F * --> * 2 * (J08) * *
+* reverse cable: Cable * 3 F * --> R02-M0-L2 3 * (J10) * * * the reverse cable R02-M0-L2 2 F * --> * 2 * (J08) * *
+* reverse cable: Cable * 2 F * --> R07-M0-L3 2 * (J08) * * * the reverse cable R07-M0-L3 3 F * --> * 3 * (J10) * *
+* reverse cable: Cable * 2 F * --> R01-M1-L2 2 * (J08) * * * the reverse cable R01-M1-L2 3 F * --> * 3 * (J10) * *
+* reverse cable: Cable * 2 F * --> R04-M0-L2 2 * (J08) * * * the reverse cable R04-M0-L2 3 F * --> * 3 * (J10) * *
+* reverse cable: Cable * 3 F * --> R03-M0-L3 3 * (J10) * * * the reverse cable R03-M0-L3 2 F * --> * 2 * (J08) * *
+* reverse cable: Cable * 2 F * --> R00-M0-L1 2 * (J08) * * * the reverse cable R00-M0-L1 3 F * --> * 3 * (J10) * *
+* reverse cable: Cable * 2 F * --> R07-M0-L1 2 * (J08) * * * the reverse cable R07-M0-L1 3 F * --> * 3 * (J10) * *
+* reverse cable: Cable * 3 F * --> R07-M0-L0 3 * (J10) * * * the reverse cable R07-M0-L0 2 F * --> * 2 * (J08) * *
+* reverse cable: Cable * 3 F * --> R00-M1-L0 3 * (J10) * * * the reverse cable R00-M1-L0 2 F * --> * 2 * (J08) * *
+* reverse cable: Cable * 2 F * --> R05-M0-L0 2 * (J08) * * * the reverse cable R05-M0-L0 3 F * --> * 3 * (J10) * *
+* reverse cable: Cable * 3 F * --> R00-M1-L3 3 * (J10) * * * the reverse cable R00-M1-L3 2 F * --> * 2 * (J08) * *
+* reverse cable: Cable * 2 F * --> R06-M0-L0 2 * (J08) * * * the reverse cable R06-M0-L0 3 F * --> * 3 * (J10) * *
+* reverse cable: Cable * 2 F * --> R06-M0-L3 2 * (J08) * * * the reverse cable R06-M0-L3 3 F * --> * 3 * (J10) * *
+* X * 8 exceeds physical dimension 8 at line * * node * file /p/gb2/draeger/benchmark/dat16k_062205/map16k_bipartyz
+ciod: Error creating node map from file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-xyzt/xyzt.map: Permission *
+* Y * 16 exceeds physical dimension 16 at line * * node * file /home/pakin1/sweep3d-2.2b/results/tzyx-8x32x32x2.map
+* Y * 16 exceeds physical dimension 16 at line * * node * file /home/pakin1/sweep3d-2.2b/results/xyzt-8x32x32x2.map
+While initializing node card, ido with * of FF:F2:9F:16:E6:86:00:0D:60:E9:19:79 caught java.lang.NullPointerException
+* Y * 21 exceeds physical dimension 16 at line * * node * file /home/pakin1/sweep3d-2.2b/results/random2-8x32x32x2.map
+* Unable to * rank=0, symbol=5 * rank * already steering symbol 255. Due to multiple symbols being over the correctable
+* Unable to * rank=0, symbol=12 - rank * already steering symbol 14. Due to multiple symbols being over the correctable
+* Unable to * rank=0, symbol=10 * rank * already steering symbol 255. Due to multiple symbols being over the correctabl
+ciod: Y coordinate 8 * physical dimension 8 at line * * node map file /home/williams/miranda/src/vx_1k_64x32x1_8x4x1.map
+ciod: T coordinate 1 exceeds physical * 1 * line * of node * file /home/pakin1/sweep3d-2.2b/results/random1-8x8x16x2.map
+ciod: T coordinate 1 exceeds physical * 1 * line * of node * file /home/pakin1/sweep3d-2.2b/results/random3-8x8x16x2.map
+* Y * 8 exceeds physical dimension 8 at line * * node * file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-xyzt/xyzt.map
+* Error creating node map from file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map: Device or resource busy
+* Z * 32 exceeds physical dimension 32 at line * * node * file /p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map
+* Y coordinate * exceeds physical dimension 16 * line 1 of node map * /home/pakin1/sweep3d-2.2b/results/random2-8x32x32x2.map
+* Y coordinate * exceeds physical dimension 16 * line 3 of node map * /home/pakin1/sweep3d-2.2b/results/random3-8x32x32x2.map
+idoproxydb hit ASSERT * ASSERT expression=!(nMsgLen * 0x10000) Source file=idomarshalerio.cpp Source line=1929 Function=int *
+ciod: Y coordinate 31 * physical dimension 16 at line * * node map file /home/pakin1/sweep3d-2.2b/results/sweep-8x32x32x2.map
+ddr: Unable to steer rank=0, symbol=10 - rank is already steering symbol * Due to multiple symbols being over the correctable
+* bad message * expecting type 53 * of type * (softheader=00000000 00000000 00000001 00000000) * PSR1=00000000 * PIXF=00000007
+* bad message * expecting type 53 * of type * (softheader=00000002 00000001 00000001 00000000) * PSR1=00000000 * PIXF=00000007
+* bad message * expecting type 53 * of type * (softheader=00000001 00000000 00000001 00000000) * PSR1=00000000 * PIXF=00000007
+* bad message * expecting type 53 * of type * (softheader=00000001 00000001 00000001 00000000) * PSR1=00000000 * PIXF=00000007
+ciod: Y coordinate 22 * physical dimension 16 at line * * node map file /home/pakin1/sweep3d-2.2b/results/random3-8x32x32x2.map
+ciod: Y coordinate 30 * physical dimension 16 at line * * node map file /home/pakin1/sweep3d-2.2b/results/random1-8x32x32x2.map
+ciod: Y coordinate 29 * physical dimension 16 at line * * node map file /home/pakin1/sweep3d-2.2b/results/random1-8x32x32x2.map
+ciod: Y coordinate 26 * physical dimension 16 at line * * node map file /home/pakin1/sweep3d-2.2b/results/random3-8x32x32x2.map
+ciod: Y coordinate 31 * physical dimension 16 at line * * node map file /home/pakin1/sweep3d-2.2b/results/random1-8x32x32x2.map
+ciod: Y coordinate 30 * physical dimension 16 at line * * node map file /home/pakin1/sweep3d-2.2b/results/random2-8x32x32x2.map
+* initializing node card, ido * LP of * * java.lang.IllegalStateException: IDo is * in functional * -- currently in * COMMUNICATION_ERROR
+ciod: T coordinate 1 exceeds physical * 1 * line * of node * file /p/gb2/pakin1/sweep3d-5x5x400-1mk-1mmi-1024vpes-random3/random3-8x8x8x2.map
+ciod: T coordinate 1 exceeds physical * 1 * line * of node * file /p/gb2/pakin1/sweep3d-50x50x50-10mk-3mmi-1024vpes-random2/random2-8x8x8x2.map
+* generated * * * for program /bgl/apps/SWL/functional/MPITs_v050902/mpits_parallel_dirs/VN/big_coll/doe_mpits/test_cases/big_coll/reduce_scatter
+* generated * * * for program /bgl/apps/SWL/functional/MPITs_v050902/mpits_parallel_dirs/CO/big_coll/doe_mpits/test_cases/big_coll/reduce_scatter
+ciod: duplicate canonical-rank 31 * logical-rank 0 mapping at line 3 * node * file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map
+idoproxydb hit ASSERT condition: ASSERT expression=!(RecvMsgHdr.ulLen * 0x10000) * file=idomarshalerio.cpp * line=387 * int IdoMarshalerIo::RunRecv()
+Problem communicating with service card, ido chip: * java.lang.IllegalStateException: IDo is not in functional state -- * in state COMMUNICATION_ERROR
+* has been started: ./mmcs_db_server --useDatabase BGL * serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks * --shutdown-timeout 60
+* Unable to steer rank=0, * * rank is already * symbol * Due to multiple symbols being over the correctable error threshold, consider replacing the card
+* has been started: ./mmcs_db_server --useDatabase BGL * serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks * --shutdown-timeout 120
+PrepareForService * * * on this * mCardSernum(203231503833343000000000594c31304b35303034303232), mLp(FF:F2:9F:16:BF:44:00:0D:60:E9:40:BB), * mType(4)) by root
+PrepareForService * * * on this * mCardSernum(203231503833343000000000594c31304b34323830303232), mLp(FF:F2:9F:16:E9:D4:00:0D:60:E9:16:2B), * mType(4)) by root
+PrepareForService * * * on this * mCardSernum(203231503833343000000000594c31304b35303034303147), mLp(FF:F2:9F:16:BF:DA:00:0D:60:E9:40:25), * mType(4)) by root
+PrepareForService * * * on this * mCardSernum(203231503833343000000000594c31304b34333337305356), mLp(FF:F2:9F:16:D0:33:00:0D:60:E9:2F:CC), * mType(4)) by root
+PrepareForService * * * on this * mCardSernum(203231503833343000000000594c31304b34323831303143), mLp(FF:F2:9F:16:E7:14:00:0D:60:E9:18:EB), * mType(4)) by root
+idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source * Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)
+* has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks * --shutdown-timeout 30
+* has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks * --no-reconnect-blocks
+ciod: * * core files for program /bgl/apps/swl-prep/ibm-swl/functional/MPITs_func_tests_cmc_brdes_050719/mpits_parallel_dirs/VN/io/doe_mpits/test_cases/io/atallbegin_end
+* communicating with service card, * chip: 00000000:00000000:00000000:FFF29F15:1F4E000D:60EAE0B1. java.io.IOException: Could not find EthernetSwitch on port:address 1:136
+* communicating with service card, * chip: 00000000:00000000:00000000:FFF29F15:1F48000D:60EAE0B7. java.io.IOException: Could not find EthernetSwitch on port:address 1:136
+ciod: Error creating * * from file /home/williams/miranda/src/res-apc-strong2-bgl-8192-8Kmap-15:14:41Tue19Jul05/../sles_9_ppc64/mapfile/8k_64x128x1_8x4x2.map: * file descriptor
+ciod: Error creating * * from file /home/williams/miranda/src/res-apc-strong2-bgl-8192-8Kmap-15:12:18Tue19Jul05/../sles_9_ppc64/mapfile/8k_64x128x1_8x4x2.map: * file descriptor
+ciod: Error creating * * from file /home/williams/miranda/src/res-apc-strong2-bgl-8192-8Kmap-15:16:17Tue19Jul05/../../sles_9_ppc64/mapfile/8k_64x128x1_8x4x2.map: * file descriptor
+* generated * * * for program /home/yates/rky-swl/MPI-VAL/MPITs_v050902_bis/MPITs_func_tests_cmc_brdes_050902/mpits_parallel_dirs/CO/big_coll/doe_mpits/test_cases/big_coll/reduce_scatter
+Node card status: no ALERTs are * Clock * is * Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not * No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS * MPGOOD is OK. MPGOOD ERROR LATCH IS * The 2.5 volt * is OK. The 1.5 volt * is OK.
+Node * * ALERT 0, ALERT 1, ALERT 2, ALERT 3 is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is * ASIC JTAG Reset is * * Temperature * is * active. No temperature * Temperature * * Latch is clear. PGOOD is * PGOOD * latch is clear. MPGOOD is OK. MPGOOD * latch is clear. The 2.5 volt rail is OK. The 1.5 volt rail is OK.
+Node * * ALERT 0, ALERT 1, ALERT 2, ALERT 3 is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is * ASIC JTAG Reset is * * TEMPERATURE * IS ACTIVE. No temperature * Temperature Limit * Latch is clear. PGOOD is * PGOOD * latch is clear. MPGOOD is OK. MPGOOD * latch is clear. The 2.5 volt rail is OK. The 1.5 volt rail is OK.
+Node * status: no * are active. Clock Mode is Low. Clock * is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit * Latch is clear. PGOOD IS NOT ASSERTED. PGOOD * LATCH IS ACTIVE. MPGOOD IS NOT * MPGOOD * LATCH IS ACTIVE. * 2.5 VOLT * IS NOT * * 1.5 VOLT * IS NOT *
+Node card status: * ALERTs are active. Clock Mode is Low. Clock * is Midplane. Phy * Reset is asserted. ASIC * Reset is asserted. Temperature Mask is not active. * temperature * Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.
+While initializing service card iDo with * * * caught * Could not * iDo with * and * because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for * is * * * COMMUNICATION_ERROR, sequenceNumberIsOk * false, * * 0, Reply Sequence Number * -1, timedOut * * * * 200, timeout * * Expected Op Command * 5, Actual Op Reply * -1, Expected Sync Command * 10, Actual Sync Reply * *
+While * node card iDo * with LP of * caught java.io.IOException: Could not contact iDo with * and * because * Communication error: (DirectIDo for * DirectIDo for * is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = * Actual Op Reply = -1, Expected * Command = 10, Actual * Reply = *
+While initializing * card, * with LP of * caught java.lang.IllegalStateException: while executing I2C Operation caught * * error: (DirectIDo for com.ibm.ido.DirectIDo * * with image * 13 and * type 4] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = * Reply Sequence Number = -1, * = true, * = 200, timeout = 1000, Expected * Command = 2, * * Reply = -1, Expected Sync Command = 32, * Sync Reply = *
+While initializing * card, * with LP of * caught java.lang.IllegalStateException: while executing CONTROL Operation caught * * error: (DirectIDo for com.ibm.ido.DirectIDo * * with image * 13 and * type 4] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = * Reply Sequence Number = -1, * = true, * = 200, timeout = 1000, Expected * Command = 2, * * Reply = -1, Expected Sync Command = 8, * Sync Reply = *
+* communicating * link card * machine * * * * caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: * error: (DirectIDo * com.ibm.ido.DirectIDo object * * image * 13 and card type 1] * * * = COMMUNICATION_ERROR, sequenceNumberIsOk = * ExpectedSequenceNumber = 845, Reply Sequence * = -1, timedOut = * retries = 200, timeout = * * * Command = 2, * * Reply = -1, * Sync Command = * * Sync Reply = -1)
+* communicating * node card, * machine * * * * caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: * error: (DirectIDo * com.ibm.ido.DirectIDo object * * image * 13 and card type 4] * * * = COMMUNICATION_ERROR, sequenceNumberIsOk = * ExpectedSequenceNumber = 1497, Reply Sequence * = -1, timedOut = * retries = 200, timeout = * * * Command = 2, * * Reply = -1, * Sync Command = * * Sync Reply = -1)
+* communicating * node card, * machine * * * * caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: * error: (DirectIDo * com.ibm.ido.DirectIDo object * * image * 13 and card type 4] * * * = COMMUNICATION_ERROR, sequenceNumberIsOk = * ExpectedSequenceNumber = 1499, Reply Sequence * = -1, timedOut = * retries = 200, timeout = * * * Command = 2, * * Reply = -1, * Sync Command = * * Sync Reply = -1)
+* communicating * node card, * machine * * * * caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: * error: (DirectIDo * com.ibm.ido.DirectIDo object * * image * 13 and card type 4] * * * = COMMUNICATION_ERROR, sequenceNumberIsOk = * ExpectedSequenceNumber = 1502, Reply Sequence * = -1, timedOut = * retries = 200, timeout = * * * Command = 2, * * Reply = -1, * Sync Command = * * Sync Reply = -1)
+* communicating * node card, * machine * * * * caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: * error: (DirectIDo * com.ibm.ido.DirectIDo object * * image * 13 and card type 4] * * * = COMMUNICATION_ERROR, sequenceNumberIsOk = * ExpectedSequenceNumber = 1503, Reply Sequence * = -1, timedOut = * retries = 200, timeout = * * * Command = 2, * * Reply = -1, * Sync Command = * * Sync Reply = -1)
+* communicating * node card, * machine * * * * caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: * error: (DirectIDo * com.ibm.ido.DirectIDo object * * image * 13 and card type 4] * * * = COMMUNICATION_ERROR, sequenceNumberIsOk = * ExpectedSequenceNumber = 1511, Reply Sequence * = -1, timedOut = * retries = 200, timeout = * * * Command = 2, * * Reply = -1, * Sync Command = * * Sync Reply = -1)
+* communicating * node card, * machine * * * * caught java.lang.IllegalStateException: while executing CONTROL Operation caught java.lang.RuntimeException: * error: (DirectIDo * com.ibm.ido.DirectIDo object * * image * 13 and card type 4] * * * = COMMUNICATION_ERROR, sequenceNumberIsOk = * ExpectedSequenceNumber = 0, Reply Sequence * = -1, timedOut = * retries = 200, timeout = * * * Command = 2, * * Reply = -1, * Sync Command = * * Sync Reply = -1)
+While initializing link card iDo machine with LP * FF:F2:9F:15:7E:EF:00:0D:60:EA:81:10 caught * Could not * iDo with * and IP=/10.7.2.231 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for * is in * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, * = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+Problem reading the * arl entries fro the service card: java.lang.IllegalStateException: while executing I2C Operation * java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object * with image version * * card type 2] is in state * * sequenceNumberIsOk * false, ExpectedSequenceNumber * 7137, * Sequence Number * -1, timedOut * true, retries * 200, timeout * 1000, * * Command * 2, Actual * * * -1, * Sync Command * 32, Actual Sync * * -1)
+Problem reading the * arl entries fro the service card: java.lang.IllegalStateException: while executing I2C Operation * java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object * with image version * * card type 2] is in state * * sequenceNumberIsOk * false, ExpectedSequenceNumber * 19818, * Sequence Number * -1, timedOut * true, retries * 200, timeout * 1000, * * Command * 2, Actual * * * -1, * Sync Command * 32, Actual Sync * * -1)
+Problem reading the * arl entries fro the service card: java.lang.IllegalStateException: while executing I2C Operation * java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object * with image version * * card type 2] is in state * * sequenceNumberIsOk * false, ExpectedSequenceNumber * 14204, * Sequence Number * -1, timedOut * true, retries * 200, timeout * 1000, * * Command * 2, Actual * * * -1, * Sync Command * 32, Actual Sync * * -1)
+Problem reading the * arl entries fro the service card: java.lang.IllegalStateException: while executing I2C Operation * java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object * with image version * * card type 2] is in state * * sequenceNumberIsOk * false, ExpectedSequenceNumber * 8888, * Sequence Number * 9890, timedOut * true, retries * 200, timeout * 1000, * * Command * 2, Actual * * * 2, * Sync Command * 32, Actual Sync * * 32)
+While initializing link card iDo machine with LP * * caught * Could not contact iDo with * and IP=/10.5.1.73 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7D:5B:00:0D:60:EA:82:A4@/10.5.1.73:0 is in * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7E:09:00:0D:60:EA:81:F6 caught * Could not * iDo with * and IP=/10.1.0.118 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7E:09:00:0D:60:EA:81:F6@/10.1.0.118:0 is in * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, * = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * * caught * Could not * iDo with LP=FF:F2:9F:15:7B:9B:00:0D:60:EA:84:64 and IP=/10.5.0.92 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7B:9B:00:0D:60:EA:84:64@/10.5.0.92:0 is * * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, * = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7C:1A:00:0D:60:EA:83:E5 caught * Could not contact iDo with * and IP=/10.1.0.136 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7C:1A:00:0D:60:EA:83:E5@/10.1.0.136:0 is in * * COMMUNICATION_ERROR, sequenceNumberIsOk * false, * * 0, Reply Sequence Number * -1, timedOut * * * * 200, timeout * * Expected Op Command * 5, Actual Op Reply * -1, Expected Sync Command * 10, Actual Sync Reply * *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7D:8B:00:0D:60:EA:82:74 caught * Could not * iDo with LP=FF:F2:9F:15:7D:8B:00:0D:60:EA:82:74 and IP=/10.5.0.79 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for * is in * * COMMUNICATION_ERROR, sequenceNumberIsOk * false, ExpectedSequenceNumber * 0, Reply Sequence Number * -1, timedOut * * * * 200, timeout * * Expected Op Command * 5, Actual Op Reply * -1, Expected Sync Command * 10, Actual Sync Reply * *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7E:64:00:0D:60:EA:81:9B caught * Could not contact iDo with * and * because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7E:64:00:0D:60:EA:81:9B@/10.7.1.150:0 is in * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7C:9E:00:0D:60:EA:83:61 caught * Could not * iDo with * and IP=/10.4.1.98 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7C:9E:00:0D:60:EA:83:61@/10.4.1.98:0 is in * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7D:2D:00:0D:60:EA:82:D2 caught * Could not * iDo with * and IP=/10.7.0.81 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7D:2D:00:0D:60:EA:82:D2@/10.7.0.81:0 is in * * COMMUNICATION_ERROR, sequenceNumberIsOk * false, ExpectedSequenceNumber * 0, Reply Sequence Number * -1, timedOut * * * * 200, timeout * * Expected Op Command * 5, Actual Op Reply * -1, Expected Sync Command * 10, Actual Sync Reply * *
+While initializing link card iDo machine with LP * * caught * Could not * iDo with LP=FF:F2:9F:15:7D:C9:00:0D:60:EA:82:36 and IP=/10.5.0.135 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7D:C9:00:0D:60:EA:82:36@/10.5.0.135:0 is in * * COMMUNICATION_ERROR, sequenceNumberIsOk * false, ExpectedSequenceNumber * 0, Reply Sequence Number * -1, timedOut * * * * 200, timeout * * Expected Op Command * 5, Actual Op Reply * -1, Expected Sync Command * 10, Actual Sync Reply * *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7D:01:00:0D:60:EA:82:FE caught * Could not contact iDo with LP=FF:F2:9F:15:7D:01:00:0D:60:EA:82:FE and IP=/10.7.2.248 because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for * is in * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP of FF:F2:9F:15:7C:AB:00:0D:60:EA:83:54 caught * Could not contact iDo with * and IP=/10.4.0.35 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7C:AB:00:0D:60:EA:83:54@/10.4.0.35:0 is in * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7D:45:00:0D:60:EA:82:BA caught * Could not contact iDo with * and IP=/10.4.0.183 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7D:45:00:0D:60:EA:82:BA@/10.4.0.183:0 is in * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * * caught * Could not contact iDo with LP=FF:F2:9F:15:7D:A3:00:0D:60:EA:82:5C and IP=/10.4.1.147 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7D:A3:00:0D:60:EA:82:5C@/10.4.1.147:0 is in * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7D:FB:00:0D:60:EA:82:04 caught * Could not * iDo with LP=FF:F2:9F:15:7D:FB:00:0D:60:EA:82:04 and IP=/10.6.0.98 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7D:FB:00:0D:60:EA:82:04@/10.6.0.98:0 is * * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, * = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7E:2E:00:0D:60:EA:81:D1 caught * Could not * iDo with LP=FF:F2:9F:15:7E:2E:00:0D:60:EA:81:D1 and IP=/10.1.0.120 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7E:2E:00:0D:60:EA:81:D1@/10.1.0.120:0 is in * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, * = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7D:33:00:0D:60:EA:82:CC caught * Could not contact iDo with LP=FF:F2:9F:15:7D:33:00:0D:60:EA:82:CC and IP=/10.5.0.250 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7D:33:00:0D:60:EA:82:CC@/10.5.0.250:0 is in * * COMMUNICATION_ERROR, sequenceNumberIsOk * false, * * 0, Reply Sequence Number * -1, timedOut * * * * 200, timeout * * Expected Op Command * 5, Actual Op Reply * -1, Expected Sync Command * 10, Actual Sync Reply * *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7E:D8:00:0D:60:EA:81:27 caught * Could not * iDo with LP=FF:F2:9F:15:7E:D8:00:0D:60:EA:81:27 and * because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7E:D8:00:0D:60:EA:81:27@/10.7.2.9:0 is in * * COMMUNICATION_ERROR, sequenceNumberIsOk * false, ExpectedSequenceNumber * 0, Reply Sequence Number * -1, timedOut * * * * 200, timeout * * Expected Op Command * 5, Actual Op Reply * -1, Expected Sync Command * 10, Actual Sync Reply * *
+While initializing link card iDo machine with LP of FF:F2:9F:15:7E:0A:00:0D:60:EA:81:F5 caught java.io.IOException: Could not contact iDo with LP=FF:F2:9F:15:7E:0A:00:0D:60:EA:81:F5 and IP=/10.1.0.126 because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for * is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = 1000, Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7C:4E:00:0D:60:EA:83:B1 caught * Could not * iDo with LP=FF:F2:9F:15:7C:4E:00:0D:60:EA:83:B1 and IP=/10.5.0.85 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7C:4E:00:0D:60:EA:83:B1@/10.5.0.85:0 is in * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7E:E4:00:0D:60:EA:81:1B caught * Could not * iDo with LP=FF:F2:9F:15:7E:E4:00:0D:60:EA:81:1B and IP=/10.6.3.83 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7E:E4:00:0D:60:EA:81:1B@/10.6.3.83:0 is in * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7D:44:00:0D:60:EA:82:BB caught * Could not * iDo with LP=FF:F2:9F:15:7D:44:00:0D:60:EA:82:BB and IP=/10.7.2.241 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7D:44:00:0D:60:EA:82:BB@/10.7.2.241:0 is * * * COMMUNICATION_ERROR, sequenceNumberIsOk * false, ExpectedSequenceNumber * 0, Reply Sequence Number * -1, timedOut * * * * 200, timeout * * Expected Op Command * 5, Actual Op Reply * -1, Expected Sync Command * 10, Actual Sync Reply * *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7F:F3:00:0D:60:EA:80:0C caught * Could not * iDo with LP=FF:F2:9F:15:7F:F3:00:0D:60:EA:80:0C and IP=/10.1.1.173 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7F:F3:00:0D:60:EA:80:0C@/10.1.1.173:0 is in * * COMMUNICATION_ERROR, sequenceNumberIsOk * false, ExpectedSequenceNumber * 0, Reply Sequence Number * -1, timedOut * * * * 200, timeout * * Expected Op Command * 5, Actual Op Reply * -1, Expected Sync Command * 10, Actual Sync Reply * *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7D:04:00:0D:60:EA:82:FB caught * Could not * iDo with LP=FF:F2:9F:15:7D:04:00:0D:60:EA:82:FB and IP=/10.7.2.235 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7D:04:00:0D:60:EA:82:FB@/10.7.2.235:0 is in * * COMMUNICATION_ERROR, sequenceNumberIsOk * false, ExpectedSequenceNumber * 0, Reply Sequence Number * -1, timedOut * * * * 200, timeout * * Expected Op Command * 5, Actual Op Reply * -1, Expected Sync Command * 10, Actual Sync Reply * *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7C:3D:00:0D:60:EA:83:C2 caught * Could not contact iDo with LP=FF:F2:9F:15:7C:3D:00:0D:60:EA:83:C2 and * because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for FF:F2:9F:15:7C:3D:00:0D:60:EA:83:C2@/10.5.0.74:0 is in * * COMMUNICATION_ERROR, sequenceNumberIsOk * false, ExpectedSequenceNumber * 0, Reply Sequence Number * -1, timedOut * * * * 200, timeout * * Expected Op Command * 5, Actual Op Reply * -1, Expected Sync Command * 10, Actual Sync Reply * *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7D:4D:00:0D:60:EA:82:B2 caught * Could not contact iDo with LP=FF:F2:9F:15:7D:4D:00:0D:60:EA:82:B2 and IP=/10.6.0.138 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7D:4D:00:0D:60:EA:82:B2@/10.6.0.138:0 is * * * COMMUNICATION_ERROR, sequenceNumberIsOk * false, ExpectedSequenceNumber * 0, Reply Sequence Number * -1, timedOut * * * * 200, timeout * * Expected Op Command * 5, Actual Op Reply * -1, Expected Sync Command * 10, Actual Sync Reply * *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7A:05:00:0D:60:EA:85:FA caught * Could not contact iDo with LP=FF:F2:9F:15:7A:05:00:0D:60:EA:85:FA and IP=/10.7.2.155 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7A:05:00:0D:60:EA:85:FA@/10.7.2.155:0 is in * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7D:2A:00:0D:60:EA:82:D5 caught * Could not contact iDo with LP=FF:F2:9F:15:7D:2A:00:0D:60:EA:82:D5 and IP=/10.5.0.245 because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7D:2A:00:0D:60:EA:82:D5@/10.5.0.245:0 is in * * COMMUNICATION_ERROR, sequenceNumberIsOk * false, ExpectedSequenceNumber * 0, Reply Sequence Number * -1, timedOut * * * * 200, timeout * * Expected Op Command * 5, Actual Op Reply * -1, Expected Sync Command * 10, Actual Sync Reply * *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7D:D2:00:0D:60:EA:82:2D caught * Could not contact iDo with LP=FF:F2:9F:15:7D:D2:00:0D:60:EA:82:2D and IP=/10.6.0.89 because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for FF:F2:9F:15:7D:D2:00:0D:60:EA:82:2D@/10.6.0.89:0 is * * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+While initializing link card iDo machine with LP * FF:F2:9F:15:7E:D3:00:0D:60:EA:81:2C caught java.io.IOException: Could not contact iDo with LP=FF:F2:9F:15:7E:D3:00:0D:60:EA:81:2C and * because java.lang.RuntimeException: Communication error: * for Uninitialized DirectIDo for FF:F2:9F:15:7E:D3:00:0D:60:EA:81:2C@/10.7.0.229:0 is in * = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = * * = 200, timeout = * Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = *
+Problem communicating with service card, ido * 00000000:00000000:00000000:FFF29F15:1F07000D:60EAE0F8. java.lang.IllegalStateException: while executing CONTROL Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object [FF:F2:9F:15:1F:07:00:0D:60:EA:E0:F8@/10.1.1.215:0 with image version 9 and card type 2] is in state = * sequenceNumberIsOk = false, ExpectedSequenceNumber = 1, * Sequence Number = * timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 2, Actual Op * = * Expected Sync Command = 8, Actual Sync * = -1)
+Problem communicating with service card, ido * 00000000:00000000:00000000:FFF29F15:1F2C000D:60EAE0D3. java.lang.IllegalStateException: while executing CONTROL Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object [FF:F2:9F:15:1F:2C:00:0D:60:EA:E0:D3@/10.1.1.135:0 with image version 9 and card type 2] is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = * Reply Sequence Number = 9222, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 2, Actual Op Reply = 2, Expected Sync Command = 8, Actual Sync Reply = 32)
